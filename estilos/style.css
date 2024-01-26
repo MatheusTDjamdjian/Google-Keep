@@ -8,6 +8,23 @@
    --fonte-principal:'Roboto' , sans-serif;
 }
 
+.nav-titulo {
+    display: flex;
+}
+
+.keep {
+    display: flex;
+    font-weight: 400;
+    font-size: 26px;
+    color: rgb(95, 99, 104);
+}
+
+.img-logo {
+   display: flex;
+   width: 70px;
+   height: 70px;
+}
+
 #nav {
     display: flex;
 }
