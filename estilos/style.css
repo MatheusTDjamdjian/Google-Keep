@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+   --fonte-principal:'Roboto' , sans-serif;
+}
+
+#nav {
+    display: flex;
+}
+
+#syb-menu {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 18px 50px;
+    color: rgb(78, 78, 78);
+    width: 50%;
+}
+
+#menu-direito {
+    width: 50%; 
+    padding-left: 170px;
+    padding-top: 25px;
+}
+
+#syb-psqs {
+    font-size: 22px;
+}
+
+#syb-light {
+    font-size: 25px;
+}
