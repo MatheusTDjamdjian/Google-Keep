@@ -30,11 +30,18 @@ header {
     color: #424242;
     font-size: 24px;
     margin-right: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 10px;
 }
 
-#logo {
+#menu-button:hover {
+    background-color: #4242424f;
+    border-radius: 20px;
+    height: 38px;
+    width: 50px;
+}
+
+div#logo {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -82,8 +89,8 @@ span#logo-text {
 }
 
 .syb-drt {
-    padding-left: 1000px;
-    margin-bottom: 100px;
+    padding-left: 950px;
+    margin-bottom: 200px;
 }
 
 #syb-mode {
