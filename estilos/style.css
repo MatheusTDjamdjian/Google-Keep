@@ -16,22 +16,24 @@ body {
 header {
     background-color: #ffffff;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 70px;
+    width: 100%;
 }
+
+
 
 #menu-button {
     cursor: pointer;
+    display: flex;
     border: none;
     background: none;
     color: #424242;
-    font-size: 24px;
-    margin-right: 10px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    font-size: 22px;
     padding: 6px;
 }
 
@@ -43,53 +45,60 @@ header {
 div#logo {
     display: flex;
     align-items: center;
-    padding: 10px;
+    margin-left: -5px;
 }
 
 #logo img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
+    padding: -6px;
 }
 
 span#logo-text {
     font-family: var(--fonte-principal);
     color: #292929;
-    font-size: 22px;
+    font-size: 16px;
     margin-right: 15px;
     position: relative;
 }
 
+.div-input-syb {
+    display: flex;
+    margin-right: 15px;
+}
+
 #search-bar {
-    flex-grow: 1;
-    margin: 0 20px;
-    position: relative;
+    display: flex;
+
 }
 
 #search-input {
-    width: 300px;
-    padding: 10px;
-    margin-left: 200px;
-    margin-top: 25px;
+    padding: 5px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 15px;
     outline: none;
+    text-align: center;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.syb-drt {
+    display: flex;
     position: relative;
 }
 
 #syb-search {
+    display: flex;
     cursor: pointer;
     border: none;
     background: none;
     color:#292929;
     font-size: 24px;
-}
-
-.syb-drt {
-    padding-left: 950px;
-    margin-bottom: 200px;
+    padding: 2px;
 }
 
 #syb-mode {
+    display: flex;
     cursor: pointer;
     border: none;
     background: none;
@@ -97,7 +106,9 @@ span#logo-text {
     font-size: 26px;
 }
 
-#sun-icon {
-    cursor: pointer;
-    font-size: 20px;
+.hr-header {
+    width: 100vw;
+    color: #424242;
+    size: 0.5px;
 }
+
