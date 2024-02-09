@@ -116,19 +116,34 @@ span#logo-text {
 }
 
 .config-menu {
-    width: 33.3%;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    width: 35%;
+    display: flex;
+    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
     height: 100vh
 }
 
 #list-menu {
     list-style-type: none;
-    padding: 5px;
     cursor: pointer;
+    padding: 0px;
     font-family: var(--fonte-principal);
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.itens-menu {
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.itens-menu:hover {
+    color: #292929;
+    background-color: #4242422d;
+    width: 100%;
+    border-radius: 0px 16px 16px 0px;
 }
 
 .icons-menu {
-    font-size: 23px;
+    font-size: 25px;
+    padding-right: 20px;
 }
