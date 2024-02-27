@@ -1,18 +1,66 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 425px) and (max-width: 750px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    div#logo {
+      margin-right: 80px; 
+    }
+    .syb-drt {
+      margin-left: 40px;
+    }
+    #search-input {
+        display: none;
+    }
+    .itens-menu:hover {
+      width: 60px;
+      height: 70px;
+      border-radius: 50%;
+    }
+    .icons-menu {
+      font-size: 18px;
+    }
+    .p-menu {
+        display: none;
+    }
+    .config-menu {
+        max-width: 60px;
+    }
+    .conteudo {
+        padding-left: 60px; 
+    }
+    .notas {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 550px) {
+    #syb-search {
+        display: none;
+    }
+    #search-input {
+        width: 200px;
+    }
+    .div-input-syb {
+        margin: 0px;
+    }
+    .itens-menu:hover {
+        width: 120%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 750px) {
     body { 
         overflow-x: hidden; 
         width: 100vw;
     }
     #search-input {
-        display: none;
+        width: 300px;
     }
     #menu-button {
         font-size: 24px;
+        margin-right: 25px;
     }
     div#logo {
-        margin-right: 200px;
+        margin-left: -30px;
     }
     #logo img {
         width: 50px;
@@ -21,22 +69,53 @@
     span#logo-text {
         font-size: 20px;
     }
+    .syb-drt {
+        margin-left: -10px;
+    }
     #syb-search{
-        margin-left: 5px;
-        float: right;
+        display: none;
     }
     #syb-mode {
-        font-size: 28px;
-        margin-left: 0px;
+        font-size: 30px;
+        margin-left: 10px;
     }
-    .syb-drt {
-        margin-left: 80%;
-        margin: 0px;
-    }  
     .hr-header {
         width: 100vw;
     }
-    
+    .conteudo {
+        padding-left: 200px;
+    }
+    .config-menu {
+        width: 95%;
+        max-width: 190px;
+    }
+    .itens-menu:hover {
+        width: 160%;
+    }
+    .notas {
+        width: 95%;
+        display: flex;
+    }
+    #nota-1 {
+        width: 45%;
+        flex-wrap: wrap;
+        display: flex
+    }
+    #nota-2 {
+        width: 45%;
+        flex-wrap: wrap;
+    }
+    #nota-3 {
+        width: 45%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #nota-4 {
+        width: 45%;
+        flex-wrap: wrap;
+        display: flex;
+        height: 230px;
+    }
 }
 @media screen and (min-width: 750px) and (max-width: 992px) {
 
