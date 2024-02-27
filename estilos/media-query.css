@@ -1,9 +1,43 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 400px) and (max-width: 750px) {
+@media screen and (min-width: 425px) and (max-width: 750px) {
+    body { 
+        overflow-x: hidden; 
+        width: 100vw;
+    }
+    #search-input {
+        display: none;
+    }
+    #menu-button {
+        font-size: 24px;
+    }
+    div#logo {
+        margin-right: 200px;
+    }
+    #logo img {
+        width: 50px;
+        height: 50px;
+    }
+    span#logo-text {
+        font-size: 20px;
+    }
+    #syb-search{
+        margin-left: 5px;
+        float: right;
+    }
+    #syb-mode {
+        font-size: 28px;
+        margin-left: 0px;
+    }
+    .syb-drt {
+        margin-left: 80%;
+        margin: 0px;
+    }  
+    .hr-header {
+        width: 100vw;
+    }
     
 }
-
 @media screen and (min-width: 750px) and (max-width: 992px) {
 
 }
