@@ -1,14 +1,35 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
+    #menu-button {
+        font-size: 26px;
+    }
+    #logo img {
+        width: 50px;
+        height: 50px;
+    }
+    span#logo-text {
+        font-size: 18px;
+    }
     div#logo {
-      margin-right: 80px; 
+      margin-right: 50px; 
+    }
+    #syb-search {
+        font-size: 28px;
+    }
+    #syb-mode {
+        font-size: 30px;
     }
     .syb-drt {
       margin-left: 40px;
     }
     #search-input {
         display: none;
+    }
+    .itens-menu {
+        margin-left: 5px;
+        margin: 5px;
+        font-size: 26px;
     }
     .itens-menu:hover {
       width: 60px;
@@ -22,22 +43,38 @@
         display: none;
     }
     .config-menu {
-        max-width: 60px;
+        max-width: 70px;
+        display: flex;
+        position: absolute;
     }
     .conteudo {
         padding-left: 60px; 
     }
     .notas {
         width: 90%;
+        margin: 3px;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 550px) {
+@media screen and (min-width: 426px) and (max-width: 550px) {
+    #menu-button {
+        font-size: 24px;
+    }
+    #logo img {
+        width: 45px;
+        height: 45px;
+    }
+    span#logo-text {
+        font-size: 18px;
+    }
     #syb-search {
         display: none;
     }
     #search-input {
-        width: 200px;
+        width: 210px;
+    }
+    #syb-mode {
+        font-size: 28px;
     }
     .div-input-syb {
         margin: 0px;
@@ -45,9 +82,24 @@
     .itens-menu:hover {
         width: 120%;
     }
+    .config-menu {
+        width: 95%;
+        max-width: 140px;
+        display: flex;
+        position: absolute;
+    }
+    .list-menu {
+        margin-left: 20px;
+    }
+    .conteudo {
+        padding-left: 140px; 
+    }
+    .notas {
+        margin: 3px;
+    }
 }
 
-@media screen and (min-width: 550px) and (max-width: 750px) {
+@media screen and (min-width: 551px) and (max-width: 768px) {
     body { 
         overflow-x: hidden; 
         width: 100vw;
@@ -57,10 +109,10 @@
     }
     #menu-button {
         font-size: 24px;
-        margin-right: 25px;
+        margin-right: 30px;
     }
     div#logo {
-        margin-left: -30px;
+        margin-left: -35px;
     }
     #logo img {
         width: 50px;
@@ -83,18 +135,25 @@
         width: 100vw;
     }
     .conteudo {
-        padding-left: 200px;
+        padding-left: 180px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
     }
     .config-menu {
         width: 95%;
         max-width: 190px;
+        display: flex;
+        position: absolute;
     }
     .itens-menu:hover {
-        width: 160%;
+        width: 170%;
     }
     .notas {
         width: 95%;
         display: flex;
+        margin: 3px;
     }
     #nota-1 {
         width: 45%;
@@ -114,13 +173,169 @@
         width: 45%;
         flex-wrap: wrap;
         display: flex;
-        height: 230px;
+        height: auto;
     }
 }
-@media screen and (min-width: 750px) and (max-width: 992px) {
-
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body { 
+        overflow-x: hidden; 
+        width: 100vw;
+    }
+    #search-input {
+        width: 330px;
+        margin-left: 70px;
+    }
+    #menu-button {
+        font-size: 26px;
+        margin-left: 5px;
+    }
+    #logo img {
+        width: 55px;
+        height: 55px;
+    }
+    span#logo-text {
+        font-size: 21px;
+    }
+    .syb-drt {
+        margin-left: 45px;
+    }
+    #syb-search{
+        display: none;
+    }
+    #syb-mode {
+        font-size: 32px;
+        margin-left: 60px;
+    }
+    .hr-header {
+        width: 100vw;
+    }
+    .conteudo {
+        padding-left: 225px;
+    }
+    .config-menu {
+        width: 95%;
+        max-width: 240px;
+        display: flex;
+        position: absolute;
+    }
+    .p-menu {
+        font-size: 23px;
+    }
+    .itens-menu:hover {
+        width: 190%;
+    }
+    .notas {
+        width: 95%;
+        display: flex;
+        margin: 3px;
+    }
+    #nota-1 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    #nota-2 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    #nota-3 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    #nota-4 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
 }
-
-@media screen and (min-width: 992px) {
-    
+@media screen and (min-width: 993px) {
+    * {
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+    }
+    body { 
+        overflow-x: hidden; 
+        width: 100vw;
+    }
+    div#logo {
+        margin-left: -5px;
+    }
+    #search-input {
+        width: 500px;
+        margin-left: 70px;
+    }
+    #menu-button {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    #logo img {
+        width: 65px;
+        height: 65px;
+    }
+    span#logo-text {
+        font-size: 24px;
+    }
+    .syb-drt {
+        margin-left: 45px;
+    }
+    #syb-search{
+        display: none;
+    }
+    #syb-mode {
+        font-size: 38px;
+        margin-left: 60px;
+    }
+    .hr-header {
+        width: 100vw;
+    }
+    .container-body {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .conteudo {
+        width: 100vw;
+        padding-left: 350px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .config-menu {
+        width: 95%;
+        max-width: 340px;
+        position: fixed;
+        display: flex;
+        height: 100vh;
+    }
+    .itens-menu:hover {
+        width: 210%;
+    }
+    .notas {
+        width: 95%;
+        display: flex;
+        margin: 3px;
+    }
+    #nota-1 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    #nota-2 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    #nota-3 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
+    #nota-4 {
+        width: 45%;
+        flex-wrap: wrap;
+        height: 95%;
+    }
 }
