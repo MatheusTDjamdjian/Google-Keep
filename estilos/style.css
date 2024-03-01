@@ -25,30 +25,30 @@
 html,
 body,
 .notas {
-    margin: 0;
-    padding: 0;
     font-family: var(--fonte-principal);
     overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #ffffff;
-    color: #fff;
-    padding: 5px;
-    margin-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
     width: 100%;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 #menu-button {
+    color: var(--text);
     cursor: pointer;
     display: flex;
     border: none;
     background: none;
-    color: var(--text);
     font-size: 20px;
     padding: 6px;
 }
@@ -66,15 +66,14 @@ div#logo {
 #logo img {
     width: 40px;
     height: 40px;
-    padding: -6px;
 }
 
 span#logo-text {
     font-family: var(--fonte-principal);
     color: var(--text);
+    position: relative;
     font-size: 16px;
     margin-right: 10px;
-    position: relative;
 }
 
 .div-input-syb {
@@ -87,13 +86,13 @@ span#logo-text {
 }
 
 #search-input {
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 15px;
     outline: none;
     text-align: center;
+    border: 1px solid black;
     width: 120px;
+    padding: 5px;
     margin-right: 30px;
+    border-radius: 15px;
 }
 
 .syb-drt {
@@ -122,34 +121,32 @@ span#logo-text {
 }
 
 .hr-header {
-    width: 100vw;
     color: var(--text);
+    width: 100vw;
     size: 0.5px;
     margin: 0px;
 }
 
 .config-menu {
+    position: fixed;
+    display: flex;
+    height: 100%;
     width: 100%;
     max-width: 140px;
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
-    height: 100%;
-    position: fixed;
-    display: flex;
 }    
 
 #list-menu {
-    list-style-type: none;
-    cursor: pointer;
-    padding: 0px;
     font-family: var(--fonte-principal);
     font-size: 20px;
+    list-style-type: none;
+    cursor: pointer;
     height: 100vh;
+    padding: 0px;
 }
 
 .itens-menu {
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-top: 25px;
+    padding: 25px 0px 25px 20px;
 }
 
 .itens-menu:hover {
@@ -160,32 +157,32 @@ span#logo-text {
 }
 
 .icons-menu {
+    display: none;
     font-size: 25px;
     padding-right: 20px;
     margin-top: 5px;
-    display: none;
 }
 
 .container-body {
-    width: 100%;
     display: flex;
     position: absolute;
+    width: 100%;
 }
 
 .conteudo {
-    width: 100vw;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-left: 150px;
     flex-wrap: wrap;
+    width: 100vw;
+    padding-left: 150px;
 }
 
 .notas {
+    color: var(--text);
     width: 95%;
     padding: 5px;
     margin: 8px;
-    color: var(--text);
     border: 1px solid #42424256;
     border-radius: 5px;
 }
