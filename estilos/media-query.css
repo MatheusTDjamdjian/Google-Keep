@@ -71,7 +71,7 @@
         display: none;
     }
     #search-input {
-        width: 210px;
+        width: 200px;
     }
     #syb-mode {
         font-size: 28px;
@@ -295,6 +295,7 @@
         width: 100%;
         display: flex;
         position: relative;
+        overflow: hidden;
     }
     .conteudo {
         width: 100vw;
@@ -309,7 +310,10 @@
         max-width: 340px;
         position: fixed;
         display: flex;
-        height: 100vh;
+        height: 100%;
+        align-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .itens-menu:hover {
         width: 210%;

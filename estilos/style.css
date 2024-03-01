@@ -11,6 +11,15 @@
     --cor1: #a2ebc3;
     --cor2: #ad95f1;
     --cor3: #e99898;
+    --text: #424242;
+}
+
+:root {
+    --cor11: #d37101;
+    --cor22: #00cf5d;
+    --cor33: #2d00aa;
+    --cor44: #b90000;
+    --text01: #b8b8b8;
 }
 
 html,
@@ -39,7 +48,7 @@ header {
     display: flex;
     border: none;
     background: none;
-    color: #424242;
+    color: var(--text);
     font-size: 20px;
     padding: 6px;
 }
@@ -62,9 +71,9 @@ div#logo {
 
 span#logo-text {
     font-family: var(--fonte-principal);
-    color: #292929;
+    color: var(--text);
     font-size: 16px;
-    margin-right: 15px;
+    margin-right: 10px;
     position: relative;
 }
 
@@ -98,7 +107,7 @@ span#logo-text {
     cursor: pointer;
     border: none;
     background: none;
-    color: #292929;
+    color: var(--text);
     font-size: 24px;
     padding: 2px;
 }
@@ -108,13 +117,13 @@ span#logo-text {
     cursor: pointer;
     border: none;
     background: none;
-    color: #292929;
+    color: var(--text);
     font-size: 26px;
 }
 
 .hr-header {
     width: 100vw;
-    color: #424242;
+    color: var(--text);
     size: 0.5px;
     margin: 0px;
 }
@@ -144,7 +153,7 @@ span#logo-text {
 }
 
 .itens-menu:hover {
-    color: #292929;
+    color: var(--text);
     background-color: #4242422d;
     width: 32.8vw;
     border-radius: 0px 16px 16px 0px;
@@ -176,7 +185,7 @@ span#logo-text {
     width: 95%;
     padding: 5px;
     margin: 8px;
-    color: #292929;
+    color: var(--text);
     border: 1px solid #42424256;
     border-radius: 5px;
 }
@@ -188,7 +197,7 @@ span#logo-text {
 }
 
 .p-notas {
-    color: #292929;
+    color: var(--text);
     font-size: 13px;
 }
 
