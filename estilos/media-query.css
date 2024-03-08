@@ -4,11 +4,16 @@
     div#logo {
         margin-right: 45px; 
     }
-    .container-symbols-header {
-        margin-left: 40px;
-    }
-    #input-search {
+    #search-input {
         display: none;
+    }
+    .content {
+        padding-left: 60px; 
+    }
+    .menu-config {
+        display: flex;
+        position: absolute;
+        max-width: 70px;
     }
     .menu-list {
         font-size: 26px;
@@ -20,16 +25,11 @@
         height: 70px;
         border-radius: 50%;
     }
+    .container-symbols-header {
+        margin-left: 40px;
+    }
     .menu-list-p {
         display: none;
-    }
-    .menu-config {
-        display: flex;
-        position: absolute;
-        max-width: 70px;
-    }
-    .content {
-        padding-left: 60px; 
     }
     .notes {
         margin: 3px;
@@ -38,14 +38,14 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 550px) {
-    #search-symbol {
-        display: none;
+    .content {
+        padding-left: 140px; 
     }
-    #input-search {
+    #search-input {
         width: 200px;
     }
-    .menu-items:hover {
-        width: 120%;
+    #search-symbol {
+        display: none;
     }
     .menu-config {
         display: flex;
@@ -56,8 +56,8 @@
     .menu-list {
         margin-left: 20px;
     }
-    .content {
-        padding-left: 140px; 
+    .menu-items:hover {
+        width: 120%;
     }
     .notes {
         margin: 3px;
@@ -69,8 +69,8 @@
         overflow-x: hidden; 
         width: 100vw;
     }
-    #input-search {
-        width: 300px;
+    .container-symbols-header {
+        margin-left: -10px;
     }
     #button-menu {
         margin-right: 34px;
@@ -78,8 +78,8 @@
     div#logo {
         margin-left: -35px;
     }
-    .container-symbols-header {
-        margin-left: -10px;
+    #search-input {
+        width: 300px;
     }
     #search-symbol {
         display: none;
@@ -121,12 +121,12 @@
         overflow-x: hidden; 
         width: 100vw;
     }
-    #input-search {
-        width: 330px;
-        margin-left: 70px;
-    }
     .container-symbols-header {
         margin-left: 45px;
+    }
+    #search-input {
+        width: 330px;
+        margin-left: 70px;
     }
     #search-symbol {
         display: none;
@@ -172,15 +172,15 @@
         overflow-x: hidden; 
         width: 100vw;
     }
+    .container-symbols-header {
+        margin-left: 45px;
+    }
     div#logo {
         margin-left: -5px;
     }
-    #input-search {
+    #search-input {
         width: 500px;
         margin-left: 70px;
-    }
-    .container-symbols-header {
-        margin-left: 45px;
     }
     #search-symbol {
         display: none;
