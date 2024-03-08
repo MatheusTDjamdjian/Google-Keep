@@ -102,7 +102,6 @@ span#text-logo {
 }
 
 #search-input {
-    text-align: center;
     outline: none;
     background-color: var(--back-input);
     border: 1px solid transparent;
