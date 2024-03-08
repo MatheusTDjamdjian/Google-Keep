@@ -32,21 +32,21 @@ body,
 }
 
 header {
+    color: #fff;
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 70px;
     width: 100%;
-    background-color: #ffffff;
-    color: #fff;
     padding: 5px;
     margin-left: 10px;
 }
 
 #menu-button {
     color: var(--text);
-    cursor: pointer;
     display: flex;
+    cursor: pointer;
     border: none;
     background: none;
     font-size: 22px;
@@ -89,8 +89,8 @@ span#logo-text {
 }
 
 #search-input {
-    outline: none;
     text-align: center;
+    outline: none;
     border: 1px solid black;
     width: 120px;
     padding: 5px;
@@ -162,12 +162,9 @@ span#logo-text {
 .material-symbols-outlined {
     color: var(--text);
     display: none;
-    margin-right: 4px;
-    padding-right: 8px;
     font-size: 28px;
     padding-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin: 5px 4px 2px 0px;
 }
 
 .p-menu {
