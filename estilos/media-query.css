@@ -111,27 +111,9 @@
     }
     .notas {
         display: flex;
-        width: 95%;
+        flex-wrap: wrap;
+        width: 45%;
         margin: 3px;
-    }
-    #nota-1 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
-    }
-    #nota-2 {
-        flex-wrap: wrap;
-        width: 45%;
-    }
-    #nota-3 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
-    }
-    #nota-4 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -175,28 +157,10 @@
     }
     .notas {
         display: flex;
-        width: 95%;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 95%;
         margin: 3px;
-    }
-    #nota-1 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
-    }
-    #nota-2 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
-    }
-    #nota-3 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
-    }
-    #nota-4 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
     }
 }
 @media screen and (min-width: 993px) {
@@ -254,27 +218,9 @@
     }
     .notas {
         display: flex;
-        width: 95%;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 95%;
         margin: 3px;
-    }
-    #nota-1 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
-    }
-    #nota-2 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
-    }
-    #nota-3 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
-    }
-    #nota-4 {
-        flex-wrap: wrap;
-        width: 45%;
-        height: 95%;
     }
 }
