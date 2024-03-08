@@ -4,62 +4,62 @@
     div#logo {
         margin-right: 45px; 
     }
-    .syb-drt {
+    .container-symbols-header {
         margin-left: 40px;
     }
-    #search-input {
+    #input-search {
         display: none;
     }
-    .itens-menu {
+    .menu-list {
         font-size: 26px;
         padding: 17.7px;
         margin: 3px;
     }
-    .itens-menu:hover {
+    .menu-items:hover {
         width: 60px;
         height: 70px;
         border-radius: 50%;
     }
-    .p-menu {
+    .menu-list-p {
         display: none;
     }
-    .config-menu {
+    .menu-config {
         display: flex;
         position: absolute;
         max-width: 70px;
     }
-    .conteudo {
+    .content {
         padding-left: 60px; 
     }
-    .notas {
+    .notes {
         margin: 3px;
         width: 90%;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 550px) {
-    #syb-search {
+    #search-symbol {
         display: none;
     }
-    #search-input {
+    #input-search {
         width: 200px;
     }
-    .itens-menu:hover {
+    .menu-items:hover {
         width: 120%;
     }
-    .config-menu {
+    .menu-config {
         display: flex;
         position: absolute;
         width: 95%;
         max-width: 140px;
     }
-    .list-menu {
+    .menu-list {
         margin-left: 20px;
     }
-    .conteudo {
+    .content {
         padding-left: 140px; 
     }
-    .notas {
+    .notes {
         margin: 3px;
     }
 }
@@ -69,28 +69,28 @@
         overflow-x: hidden; 
         width: 100vw;
     }
-    #search-input {
+    #input-search {
         width: 300px;
     }
-    #menu-button {
+    #button-menu {
         margin-right: 34px;
     }
     div#logo {
         margin-left: -35px;
     }
-    .syb-drt {
+    .container-symbols-header {
         margin-left: -10px;
     }
-    #syb-search{
+    #search-symbol {
         display: none;
     }
-    #syb-mode {
+    #dark-symbol {
         margin-left: 10px;
     }
     .hr-header {
         width: 100vw;
     }
-    .conteudo {
+    .content {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -98,7 +98,7 @@
         padding-left: 180px;
         height: 100vh;
     }
-    .config-menu {
+    .menu-config {
         display: flex;
         position: absolute;
         overflow: hidden;
@@ -106,10 +106,10 @@
         max-width: 190px;
         height: 100vh;
     }
-    .itens-menu:hover {
+    .menu-items:hover {
         width: 150%;
     }
-    .notas {
+    .notes {
         display: flex;
         flex-wrap: wrap;
         width: 45%;
@@ -121,30 +121,30 @@
         overflow-x: hidden; 
         width: 100vw;
     }
-    #search-input {
+    #input-search {
         width: 330px;
         margin-left: 70px;
     }
-    .syb-drt {
+    .container-symbols-header {
         margin-left: 45px;
     }
-    #syb-search{
+    #search-symbol {
         display: none;
     }
-    #syb-mode {
+    #dark-symbol {
         margin-left: 60px;
     }
     .hr-header {
         width: 100vw;
     }
-    .conteudo {
+    .content {
         display: flex;
         justify-content: center;
         text-align: center;
         flex-wrap: wrap;
         padding-left: 225px;
     }
-    .config-menu {
+    .menu-config {
         display: flex;
         position: absolute;
         overflow: hidden;
@@ -152,10 +152,10 @@
         max-width: 240px;
         height: 100vh;
     }
-    .itens-menu:hover {
+    .menu-items:hover {
         width: 170%;
     }
-    .notas {
+    .notes {
         display: flex;
         flex-wrap: wrap;
         width: 45%;
@@ -175,17 +175,17 @@
     div#logo {
         margin-left: -5px;
     }
-    #search-input {
+    #input-search {
         width: 500px;
         margin-left: 70px;
     }
-    .syb-drt {
+    .container-symbols-header {
         margin-left: 45px;
     }
-    #syb-search{
+    #search-symbol {
         display: none;
     }
-    #syb-mode {
+    #dark-symbol {
         margin-left: 60px;
     }
     .hr-header {
@@ -197,7 +197,7 @@
         overflow: hidden;
         width: 100%;
     }
-    .conteudo {
+    .content {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -205,7 +205,7 @@
         width: 100vw;
         padding-left: 350px;
     }
-    .config-menu {
+    .menu-config {
         display: flex;
         flex-wrap: wrap;
         overflow: hidden;
@@ -213,10 +213,10 @@
         width: 95%;
         max-width: 340px;
     }
-    .itens-menu:hover {
+    .menu-items:hover {
         width: 210%;
     }
-    .notas {
+    .notes {
         display: flex;
         flex-wrap: wrap;
         width: 45%;

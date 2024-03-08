@@ -24,7 +24,7 @@
 
 html,
 body,
-.notas {
+.grades {
     font-family: var(--fonte-principal);
     overflow-x: hidden; 
     margin: 0;
@@ -43,7 +43,7 @@ header {
     margin-left: 10px;
 }
 
-#menu-button {
+#button-menu {
     color: var(--text);
     display: flex;
     cursor: pointer;
@@ -54,10 +54,10 @@ header {
     margin-left: 5px;
 }
 
-#menu-button:hover {
+#button-menu:hover {
     background-color: #4242424f;
     width: 30px;
-    height: 35px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -71,7 +71,7 @@ div#logo {
     height: 40px;
 }
 
-span#logo-text {
+span#text-logo {
     font-family: var(--fonte-principal);
     color: var(--text);
     position: relative;
@@ -79,7 +79,7 @@ span#logo-text {
     margin-right: 10px;
 }
 
-.div-input-syb {
+.div-input-symbols {
     display: flex;
     margin-right: 15px;
 }
@@ -88,7 +88,7 @@ span#logo-text {
     display: flex;
 }
 
-#search-input {
+#input-search {
     text-align: center;
     outline: none;
     border: 1px solid black;
@@ -98,13 +98,13 @@ span#logo-text {
     border-radius: 15px;
 }
 
-.syb-drt {
+.container-symbols-header {
     display: flex;
     position: relative;
     margin-left: 5px;
 }
 
-#syb-search {
+#search-symbol {
     display: flex;
     cursor: pointer;
     border: none;
@@ -114,7 +114,7 @@ span#logo-text {
     padding: 2px;
 }
 
-#syb-mode {
+#dark-symbol {
     display: flex;
     cursor: pointer;
     border: none;
@@ -130,7 +130,7 @@ span#logo-text {
     margin: 0px;
 }
 
-.config-menu {
+.menu-config {
     position: fixed;
     display: flex;
     height: 100%;
@@ -139,7 +139,7 @@ span#logo-text {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
 }    
 
-#list-menu {
+#menu-list {
     font-family: var(--fonte-principal);
     font-size: 20px;
     list-style-type: none;
@@ -148,11 +148,11 @@ span#logo-text {
     padding: 0px;
 }
 
-.itens-menu {
+.menu-items {
     padding: 25px 0px 25px 20px;
 }
 
-.itens-menu:hover {
+.menu-items:hover {
     color: black;
     background-color: #4242422d;
     width: 32.8vw;
@@ -167,7 +167,7 @@ span#logo-text {
     margin: 5px 4px 2px 0px;
 }
 
-.p-menu {
+.menu-list-p {
     font-weight: bolder;
     font-size: 15px;
     color: var(--text);
@@ -179,7 +179,7 @@ span#logo-text {
     width: 100%;
 }
 
-.conteudo {
+.content {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -188,7 +188,7 @@ span#logo-text {
     padding-left: 150px;
 }
 
-.notas {
+.notes {
     color: var(--text);
     width: 95%;
     padding: 5px;
@@ -197,33 +197,33 @@ span#logo-text {
     border-radius: 5px;
 }
 
-.titulo-notas {
+.notes-title {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5px;
 }
 
-.p-notas {
+.notes-text {
     color: var(--text);
     font-size: 13px;
 }
 
-.notas:hover {
+.notes:hover {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
 }
 
-#nota-1 {
+#notes-one {
     background-color: var(--cor0);
 }
 
-#nota-2 {
+#notes-two {
     background-color: var(--cor1);
 }
 
-#nota-3 {
+#notes-three {
     background-color: var(--cor2);
 }
 
-#nota-4 {
+#notes-four {
     background-color: var(--cor3);
 }
