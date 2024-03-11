@@ -13,6 +13,7 @@
     --cor3: #e99898;
     --text: #424242;
     --back-input: #42424215;
+    --notes-border:#4242422d;
 }
 
 :root {
@@ -21,6 +22,7 @@
     --cor33: #2d00aa;
     --cor44: #b90000;
     --text01: #b8b8b8;
+    --menu-hover: rgba(199, 163, 2, 0.445);
 }
 
 html,
@@ -198,7 +200,7 @@ button.search-bar-btn:hover {
 
 .menu-items:hover {
     color: black;
-    background-color: #4242422d;
+    background-color: var(--notes-border);
     width: 32.8vw;
     border-radius: 0px 16px 16px 0px;
 }
@@ -211,7 +213,7 @@ button.search-bar-btn:hover {
 
 .notes {
     color: var(--text);
-    border: 1px solid #42424256;
+    border: 1px solid var(--notes-border);
     width: 95%;
     padding: 5px;
     margin: 8px;
