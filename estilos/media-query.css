@@ -44,21 +44,19 @@
     .content {
         padding-left: 140px; 
     }
-    .search-bar-btn {
-        padding-left: 0px;
-        display: flex;
-        margin-left: 0px;
-        margin-right: 20px;
-    }
     #search-input {
         width: 200px;
+    }
+    .search-bar-btn {
+        display: flex;
+        padding-left: 0px;
+        margin: 0px 20px 0px 0px;
     }
     #search-symbol {
         display: none;
     }
     .dark-symbol {
-        margin-right: 10px;
-        margin-left: 20px;
+        margin: 0px 10px 0px 20px;
     }
     .menu-config {
         display: flex;

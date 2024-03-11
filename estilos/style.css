@@ -90,22 +90,24 @@ div#logo {
 }
 
 span#text-logo {
+    font-size: 22px;
     font-family: var(--fonte-principal);
     color: var(--text);
     position: relative;
-    font-size: 22px;
     margin-right: 10px;
 }
 
-button.search-bar-btn {
-    border: none;
-    border-radius: 5px;
-    margin-left: 0px;
-    padding-left: 0px;
+#search-input {
+    outline: none;
     background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 120px;
+    padding: 9px;
+    margin: 0px -6px 0px -5px;
 }
 
-button.search-bar-btn:hover {
+#search-input:hover {
     background-color: white;
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
 }
@@ -116,18 +118,15 @@ button.search-bar-btn:hover {
     margin-right: 15px;
 }
 
-#search-input {
-    outline: none;
+button.search-bar-btn {
     background-color: transparent;
-    border: 1px solid transparent;
-    width: 120px;
-    padding: 9px;
-    margin-right: -6px;
-    margin-left: -5pxpx;
+    border: none;
     border-radius: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
-#search-input:hover {
+button.search-bar-btn:hover {
     background-color: white;
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
 }
@@ -212,10 +211,10 @@ button.search-bar-btn:hover {
 
 .notes {
     color: var(--text);
+    border: 1px solid #42424256;
     width: 95%;
     padding: 5px;
     margin: 8px;
-    border: 1px solid #42424256;
     border-radius: 5px;
 }
 
