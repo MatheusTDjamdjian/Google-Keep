@@ -18,7 +18,9 @@
     --bg-color: #fff;
 }
 
-body.dark {
+/* Nome errado para desabilitar por hora o modo dark */
+
+ody.dark {
     --cor0: #d37101;
     --cor1: #00cf5d;
     --cor2: #2d00aa;
@@ -143,10 +145,10 @@ button.search-bar-btn {
     padding-left: 0px;
 }
 
-/*button.search-bar-btn:hover {
+button.search-bar-btn:hover {
     background-color: white;
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
-}*/
+}
 
 #search-symbol {
     display: flex;
@@ -185,7 +187,8 @@ button.search-bar-btn {
 
 .menu-config {
     position: fixed;
-    display: flex;
+    align-content: center;
+    left: 0px;
     height: 100%;
     width: 100%;
     max-width: 140px;

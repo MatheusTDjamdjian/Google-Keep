@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+/* Tudo certo */
 @media screen and (min-width: 320px) and (max-width: 425px) {
+    body {
+        overflow-x: hidden;
+    }
     div#logo {
         margin-right: 45px; 
     }
@@ -17,6 +21,7 @@
         display: flex;
         position: absolute;
         max-width: 70px;
+        height: 100vh;
     }
     .menu-list {
         font-size: 26px;
@@ -40,12 +45,14 @@
     }
 }
 
+
 @media screen and (min-width: 426px) and (max-width: 550px) {
     .content {
         padding-left: 140px; 
     }
     #search-input {
-        width: 200px;
+        margin-top: 5px;
+        width: 170px;
     }
     .search-bar-btn {
         display: flex;
@@ -138,7 +145,7 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
     body { 
         overflow-x: hidden; 
-        width: 100vw;
+        width: 100%;
     }
     .container-symbols-header {
         margin-left: 45px;
@@ -157,11 +164,9 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        flex-wrap: nowrap;
         padding-left: 220px;
     }
     .menu-config {
-        display: flex;
         position: absolute;
         overflow: hidden;
         width: 100%;
