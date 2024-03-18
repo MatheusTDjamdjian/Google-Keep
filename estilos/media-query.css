@@ -192,12 +192,8 @@
     .container-symbols-header {
         margin-left: 45px;
     }
-    div#logo {
-        margin-left: -5px;
-    }
     #search-input {
         width: 500px;
-        margin-left: -5px;
     }
     #search-symbol {
         display: none;
@@ -217,7 +213,7 @@
     .content {
         display: flex;
         justify-content: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         text-align: center;
         width: 95vw;
         padding-left: 350px;
