@@ -119,7 +119,6 @@ span#text-logo {
     border-radius: 5px;
     width: 120px;
     padding: 9px;
-    margin-left: 20px;
     background-color: var(--input-color-bg);
 }
 
@@ -135,6 +134,7 @@ span#text-logo {
     display: flex;
     border: none;
     margin-right: 15px;
+    padding-top: 0px;
 }
 
 button.search-bar-btn {
@@ -156,8 +156,10 @@ button.search-bar-btn:hover {
     border: none;
     background: none;
     color: var(--text);
-    font-size: 25px;
-    padding: 2px;
+    font-size: 23px;
+    padding: 3px;
+    padding-top: 4px;
+    margin-left: -5px;
 }
 
 #dark-symbol {
