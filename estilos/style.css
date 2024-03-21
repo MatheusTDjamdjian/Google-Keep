@@ -186,6 +186,8 @@ button.search-bar-btn:hover {
 }
 
 .menu-config {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     align-content: center;
     left: 0px;
@@ -196,6 +198,8 @@ button.search-bar-btn:hover {
 }    
 
 #menu-list {
+    display: flex;
+    flex-direction: column;
     font-family: var(--fonte-principal);
     font-size: 20px;
     list-style-type: none;

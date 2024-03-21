@@ -21,7 +21,7 @@
         display: flex;
         position: absolute;
         max-width: 70px;
-        height: 100vh;
+        height: 100%;
     }
     .menu-list {
         font-size: 26px;
@@ -131,6 +131,7 @@
         width: 95%;
         max-width: 190px;
         height: 100vh;
+        flex-wrap: wrap;
     }
     .menu-items:hover {
         width: 150%;
@@ -167,11 +168,16 @@
         padding-left: 220px;
     }
     .menu-config {
+        display: flex;
         position: absolute;
         overflow: hidden;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-right: 95px;
         width: 100%;
         max-width: 210px;
-        height: 100vh;
+        height: 100%;
     }
     .menu-items:hover {
         width: 170%;
@@ -225,9 +231,10 @@
     }
     .menu-config {
         display: flex;
+        position: absolute;
         flex-wrap: wrap;
         overflow: hidden;
-        height: 100vh;
+        height: 100%;
         width: 95%;
         max-width: 310px;
     }
