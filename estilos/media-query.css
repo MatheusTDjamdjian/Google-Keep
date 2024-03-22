@@ -53,11 +53,16 @@
     #search-input {
         margin-top: 5px;
         width: 170px;
+        height: 30px;
     }
     .search-bar-btn {
         display: flex;
         padding-left: 0px;
         margin: 0px 20px 0px 0px;
+    }
+    #search-symbol {
+        font-size: 21px;
+        height: 30px;
     }
     .dark-symbol {
         margin: 0px 10px 0px 20px;
@@ -98,15 +103,49 @@
         margin-left: -35px;
     }
     #search-input {
-        width: 300px;
+        height: 30px;
+        margin-top: 5px;
         margin-left: 0px;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        width: 280px;
+        padding: 9px;
+        background-color: var(--input-color-bg);
     }
     .button.search-bar {
         margin-left: 0px;
     }
-    #search-symbol {
-        display: none;
+    button.search-bar-btn {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        border-radius: 9px;
+        width: 340px;
+        height: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
+
+    #search-symbol {
+        display: flex;
+        cursor: pointer;
+        border: none;
+        background-color: var(--back-input);
+        color: rgb(87, 87, 87);
+        height: 30px;
+        font-size: 21px;
+        border-radius: 5px;
+        padding: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #search-symbol:hover {
+        background-color: white;
+    }
+    
     #dark-symbol {
         margin-left: 10px;
     }
@@ -148,13 +187,53 @@
     .container-symbols-header {
         margin-left: 45px;
     }
+
     #search-input {
+        height: 30px;
         width: 330px;
-        margin-left: -5px;
+        margin-top: 5px;
+        margin-left: 0px;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        width: 300px;
+        padding: 9px;
+        background-color: var(--input-color-bg);
     }
+    .button.search-bar {
+        margin-left: 0px;
+    }
+    button.search-bar-btn {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        border-radius: 9px;
+        width: 340px;
+        height: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
     #search-symbol {
-        display: none;
+        display: flex;
+        cursor: pointer;
+        border: none;
+        background-color: var(--back-input);
+        color: rgb(87, 87, 87);
+        height: 30px;
+        font-size: 21px;
+        border-radius: 5px;
+        padding: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
+    
+    #search-symbol:hover {
+        background-color: white;
+    }
+    
+    
     .hr-header {
         width: 100vw;
     }
@@ -182,9 +261,7 @@
     .notes {
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        min-width: 130px;
-        height: 95%;
+        width: 45%;
         margin: 3px;
     }
 }
@@ -200,12 +277,53 @@
     .container-symbols-header {
         margin-left: 45px;
     }
+
     #search-input {
+        height: 30px;
         width: 500px;
+        margin-top: 5px;
+        margin-left: 0px;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        width: 300px;
+        padding: 9px;
+        background-color: var(--input-color-bg);
     }
+    .button.search-bar {
+        margin-left: 0px;
+    }
+    button.search-bar-btn {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        border-radius: 9px;
+        width: 340px;
+        height: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
     #search-symbol {
-        display: none;
+        display: flex;
+        cursor: pointer;
+        border: none;
+        background-color: var(--back-input);
+        color: rgb(87, 87, 87);
+        font-size: 21px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
+    
+    #search-symbol:hover {
+        background-color: white;
+    }
+    
+
     #dark-symbol {
         margin-left: 60px;
     }

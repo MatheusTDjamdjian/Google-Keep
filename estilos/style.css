@@ -140,7 +140,9 @@ span#text-logo {
 button.search-bar-btn {
     background-color: transparent;
     border: none;
-    border-radius: 5px;
+    border-radius: 9px;
+    height: 0px;
+    width: 0px;
     margin-left: 0px;
     padding-left: 0px;
 }
@@ -154,12 +156,17 @@ button.search-bar-btn:hover {
     display: flex;
     cursor: pointer;
     border: none;
-    background: none;
-    color: var(--text);
-    font-size: 23px;
+    background-color: var(--back-input);
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+    border-radius: 5px;
     padding: 3px;
-    padding-top: 4px;
-    margin-left: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#search-symbol:hover {
+    background-color: white;
 }
 
 #dark-symbol {
