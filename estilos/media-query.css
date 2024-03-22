@@ -62,7 +62,7 @@
     }
     #search-symbol {
         font-size: 21px;
-        height: 30px;
+        height: 35px;
     }
     .dark-symbol {
         margin: 0px 10px 0px 20px;
@@ -134,7 +134,7 @@
         border: none;
         background-color: var(--back-input);
         color: rgb(87, 87, 87);
-        height: 30px;
+        height: 35px;
         font-size: 21px;
         border-radius: 5px;
         padding: 3px;
@@ -145,10 +145,7 @@
     #search-symbol:hover {
         background-color: white;
     }
-    
-    #dark-symbol {
-        margin-left: 10px;
-    }
+
     .hr-header {
         width: 100vw;
     }
@@ -221,7 +218,7 @@
         border: none;
         background-color: var(--back-input);
         color: rgb(87, 87, 87);
-        height: 30px;
+        height: 35px;
         font-size: 21px;
         border-radius: 5px;
         padding: 3px;
@@ -312,7 +309,7 @@
         background-color: var(--back-input);
         color: rgb(87, 87, 87);
         font-size: 21px;
-        height: 30px;
+        height: 35px;
         border-radius: 5px;
         padding: 3px;
         padding-top: 5px;

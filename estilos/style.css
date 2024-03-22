@@ -220,9 +220,7 @@ button.search-bar-btn:hover {
 .material-symbols-outlined {
     color: var(--text);
     display: none;
-    font-size: 28px;
-    padding-right: 10px;
-    margin: 5px 4px 2px 0px;
+    font-size: 20px;
 }
 
 .menu-items {
