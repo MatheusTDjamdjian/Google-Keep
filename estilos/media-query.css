@@ -26,11 +26,14 @@
     .menu-list {
         font-size: 26px;
         padding: 17.7px;
-        margin: 3px;
+        margin-right: 10px;
+    }
+    .menu-items {
+        margin-left: 20px;
+        margin-bottom: 50px;
     }
     .menu-items:hover {
-        width: 60px;
-        height: 70px;
+        height: 50px;
         border-radius: 50%;
     }
     .container-symbols-header {
@@ -73,11 +76,18 @@
         width: 95%;
         max-width: 140px;
     }
+    .icons-menu {
+        font-size: 13px;
+    }
     .menu-list {
         margin-left: 20px;
     }
+    .menu-list-p {
+        font-size: 13px;
+    }
     .menu-items:hover {
-        width: 120%;
+        width: 85%;
+        height: 35px;
     }
     .notes {
         display: flex;
@@ -312,8 +322,7 @@
         height: 35px;
         border-radius: 5px;
         padding: 3px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 10px;
     }
     
     #search-symbol:hover {

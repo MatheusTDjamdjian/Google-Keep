@@ -134,7 +134,7 @@ span#text-logo {
     display: flex;
     border: none;
     margin-right: 15px;
-    padding-top: 0px;
+    padding-top: 2px;
 }
 
 button.search-bar-btn {
@@ -160,8 +160,6 @@ button.search-bar-btn:hover {
     color: rgb(87, 87, 87);
     font-size: 25px;
     border-radius: 5px;
-    padding: 3px;
-    padding-top: 5px;
     padding-bottom: 5px;
 }
 
@@ -221,16 +219,17 @@ button.search-bar-btn:hover {
     color: var(--text);
     display: none;
     font-size: 20px;
+    margin-right: 17px;
+    margin-top: 6px;
 }
 
 .menu-items {
-    padding: 25px 0px 25px 20px;
+    margin-bottom: 25px;
 }
 
 .menu-items:hover {
     color: black;
     background-color: var(--notes-border);
-    width: 32.8vw;
     border-radius: 0px 16px 16px 0px;
 }
 
