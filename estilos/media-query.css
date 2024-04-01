@@ -179,6 +179,9 @@
     .menu-items:hover {
         width: 150%;
     }
+    .menu-list-p {
+        font-size: 13px;
+    }
     .notes {
         display: flex;
         flex-wrap: wrap;
@@ -261,6 +264,9 @@
         width: 100%;
         max-width: 210px;
         height: 100%;
+    }
+    .menu-list-p {
+        font-size: 13px;
     }
     .menu-items:hover {
         width: 170%;
@@ -358,6 +364,9 @@
         height: 100%;
         width: 95%;
         max-width: 310px;
+    }
+    .menu-list-p {
+        font-size: 13px;
     }
     .menu-items:hover {
         width: 210%;
