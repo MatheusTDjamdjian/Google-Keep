@@ -8,7 +8,7 @@
 :root {
     --fonte-principal: 'Roboto', sans-serif;
     --cor0: #f0c18f;
-    --cor1: #a2ebc3;
+    --cor1: #b4ddd3;
     --cor2: #ad95f1;
     --cor3: #e99898;
     --text: #424242;
@@ -16,11 +16,14 @@
     --notes-border:#4242422d;
     --input-color-bg: #f1f3f4;
     --bg-color: #fff;
+    --box-shadow-header: #dadce0;
+    --bg-menu-item: #feefc3;
+    --bg-menu-item-hover: #f1f3f4;
 }
 
 /* Nome errado para desabilitar por hora o modo dark */
 
-ody.dark {
+body.dark {
     --cor0: #d37101;
     --cor1: #00cf5d;
     --cor2: #2d00aa;
@@ -28,6 +31,13 @@ ody.dark {
     --text01: #b8b8b8;
     --bg-color: rgb(32, 33, 36);
     --menu-hover: rgba(199, 163, 2, 0.445);
+    --box-shadow-header: #dadce0;
+    --bg-menu-item: #41331c;
+    --bg-menu-item-hover: #28292c;
+}
+
+button {
+    border: none;
 }
 
 html,
@@ -56,13 +66,17 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    width: 95%;
+    width: 100%;
     padding: 5px;
-    margin-left: 10px;
+    position: fixed;
+    box-shadow: inset 0 -1px 0 0 var(--box-shadow-header);
+    z-index: 2;
 }
 
 .header-left {
+    width: 85%;
     display: flex;
+    justify-content: space-between;
 }
 
 .container-symbols-header {
@@ -72,8 +86,10 @@ header {
 }
 
 .div-input-symbols {
+    width: 15%;
     display: flex;
     margin-right: 15px;
+    justify-content: flex-end;
 }
 
 #button-menu {
@@ -117,9 +133,11 @@ span#text-logo {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 5px;
-    width: 120px;
+    width: 100%;
     padding: 9px;
     background-color: var(--input-color-bg);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 #search-input:active:focus,
@@ -130,11 +148,22 @@ span#text-logo {
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
 }
 
-#search-bar {
+.control-bar {
     display: flex;
-    border: none;
-    margin-right: 15px;
-    padding-top: 2px;
+}
+
+#search-bar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #search-bar {
+        width: 70%;
+        display: flex;
+        border: none;
+        margin-right: 15px;
+        padding-top: 2px;
+    }
 }
 
 button.search-bar-btn {
@@ -161,6 +190,10 @@ button.search-bar-btn:hover {
     font-size: 25px;
     border-radius: 5px;
     padding-bottom: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    align-items: center;
 }
 
 #search-symbol:hover {
@@ -188,8 +221,10 @@ button.search-bar-btn:hover {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 98vw;
-    padding-left: 150px;
+    width: 100vw;
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-top: 80px;
 }
 
 .menu-config {
@@ -200,8 +235,7 @@ button.search-bar-btn:hover {
     left: 0px;
     height: 100%;
     width: 100%;
-    max-width: 140px;
-    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
+    max-width: 70px;
 }    
 
 #menu-list {
@@ -213,6 +247,7 @@ button.search-bar-btn:hover {
     cursor: pointer;
     height: 100vh;
     padding: 0px;
+    align-items: flex-start;
 }
 
 .material-symbols-outlined {
@@ -220,20 +255,36 @@ button.search-bar-btn:hover {
     display: none;
     font-size: 20px;
     margin-right: 17px;
-    margin-top: 6px;
+    padding-left: 10px;
 }
 
 .menu-items {
-    margin-bottom: 25px;
+    width: 100%;
 }
 
-.menu-items:hover {
-    color: black;
-    background-color: var(--notes-border);
-    border-radius: 0px 16px 16px 0px;
+.menu-items .menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 13px 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.menu-items .menu-button:hover,
+.menu-items .menu-button:focus,
+.menu-items .menu-button:active,
+.menu-items .menu-button:active:focus {
+    background-color: var(--bg-menu-item-hover);
+}
+
+.menu-items .menu-button.active {
+    background-color: var(--bg-menu-item);
 }
 
 .menu-list-p {
+    display: none;
     font-weight: bolder;
     font-size: 15px;
     color: var(--text);
@@ -241,8 +292,8 @@ button.search-bar-btn:hover {
 
 .notes {
     color: var(--text);
-    border: 1px solid var(--notes-border);
-    width: 95%;
+    max-width: 200px;
+    width: 100%;
     padding: 5px;
     margin: 8px;
     border-radius: 5px;
@@ -277,4 +328,18 @@ button.search-bar-btn:hover {
 
 #notes-four {
     background-color: var(--cor3);
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding-left: 160px;
+    }
+    .menu-config,
+    #menu-list {
+        max-width: 140px;
+    }
+
+    .menu-list-p {
+        display: inline;
+    }
 }

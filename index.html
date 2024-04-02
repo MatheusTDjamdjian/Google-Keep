@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Keep</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <!-- <link rel="stylesheet" href="estilos/media-query.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body class="dark">
+<body>
     <!-- Cabeçalho -->
     <header>
         <div class="header-left">
-            <button id="button-menu">&#9776;</button>
-            <div id="logo">
-                <img src="imagens/google-keep-icon-logo-symbol-free-png.webp" alt="Google Keep Logo">
-                <span id="text-logo">Keep</span>
+            <div class="control-bar">
+                <button id="button-menu">&#9776;</button>
+                <div id="logo">
+                    <img src="imagens/google-keep-icon-logo-symbol-free-png.webp" alt="Google Keep Logo">
+                    <span id="text-logo">Keep</span>
+                </div>
             </div>
             <div id="search-bar">
                 <span class="material-symbols-outlined" id="search-symbol">
@@ -33,9 +35,6 @@
             </span>
         </div>
     </header>
-    <div>
-        <hr class="hr-header">
-    </div>
     <!--Menu lateral-->
     <div>
         <div class="container-body">
@@ -46,34 +45,40 @@
                         <div class="menu-config">
                             <ul id="menu-list">
                                 <li class="menu-items">
-                                    <span class="material-symbols-outlined" class="icons-menu">
-                                        lightbulb
-                                    </span><span class="menu-list-p">Notas</span>
+                                    <button type="button" class="menu-button active">
+                                        <span class="material-symbols-outlined" class="icons-menu">
+                                            lightbulb
+                                        </span><span class="menu-list-p">Notas</span>
+                                    </button>
                                 </li>
                                 <li class="menu-items">
-                                    <span class="material-symbols-outlined" class="icons-menu">
-                                        folder_open
-                                    </span><span class="menu-list-p">Arquivo</span>
+                                    <button type="button" class="menu-button">
+                                        <span class="material-symbols-outlined" class="icons-menu">
+                                            folder_open
+                                        </span><span class="menu-list-p">Arquivo</span>
+                                    </button>
                                 </li>
                                 <li class="menu-items">
-                                    <span class="material-symbols-outlined" class="icons-menu">
-                                        delete
-                                    </span><span class="menu-list-p">Lixeira</span>
+                                    <button type="button" class="menu-button">
+                                        <span class="material-symbols-outlined" class="icons-menu">
+                                            delete
+                                        </span><span class="menu-list-p">Lixeira</span>
+                                    </button>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="notes" id="notes-one">
                         <h1 class="notes-title">Nota 1</h1>
-                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!</p>
+                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur</p>
                     </div>
                     <div class="notes" id="notes-two">
                         <h1 class="notes-title">Nota 2</h1>
-                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.</p>
+                        <p class="notes-text">Lorem ipsum dolo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo provident harum reiciendis delectus assumenda enim consectetur, veritatis esse odio nam aliquid id commodi quos dignissimos, et ratione non aut?</p>
                     </div>
                     <div class="notes" id="notes-three">
                         <h1 class="notes-title">Nota 3</h1>
-                        <p class="notes-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?</p>
+                        <p class="notes-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio accusantium maxime natus impedit quia ad nihil. Quos, accusamus architecto! Aperiam voluptatem nesciunt quis explicabo, ipsa deserunt</p>
                     </div>
                     <div class="notes" id="notes-four">
                         <h1 class="notes-title">Nota 4</h1>
@@ -81,15 +86,15 @@
                     </div>
                     <div class="notes" id="notes-one">
                         <h1 class="notes-title">Nota 1</h1>
-                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!</p>
+                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudianda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem minima suscipit ipsum quos veniam nemo similique dolorem explicabo? Perferendis consectetur illo nisi, aut quibusdam eius. Fugiat ut aspernatur quia dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nesciunt ut! Dolorem aliquam labore commodi minima aperiam fuga magni porro atque? Similique, cumque minus obcaecati sint illo optio. Ea, pariatur!</p>
                     </div>
                     <div class="notes" id="notes-two">
                         <h1 class="notes-title">Nota 2</h1>
-                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.</p>
+                        <p class="notes-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="notes" id="notes-three">
                         <h1 class="notes-title">Nota 3</h1>
-                        <p class="notes-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?</p>
+                        <p class="notes-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, obcaecati illum delectus officiis dolorum cum fuga mollitia itaque dolore molestiae sunt illo repudiandae magni velit totam! Sequi ullam ea inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam similique dolores ratione fugit numquam. Consequuntur sapiente officiis error, sint iusto, corporis fuga ducimus eligendi, magnam exercitationem sed distinctio ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex sit eveniet, deleniti doloribus velit accusantium, sed, pariatur adipisci necessitatibus sequi eum cum exercitationem! Delectus accusantium sapiente iure illo adipisci!</p>
                     </div>
                     <div class="notes" id="notes-four">
                         <h1 class="notes-title">Nota 4</h1>
@@ -164,4 +169,14 @@
         </div>
     </div>
 </body>
+<script>
+    document.querySelector('.container-symbols-header').addEventListener('click', function(e){
+        e.preventDefault();
+        if(document.body.classList.contains('dark')){
+            document.body.classList.remove('dark');
+        } else {
+            document.body.classList.add('dark');
+        }
+    })
+</script>
 </html>
