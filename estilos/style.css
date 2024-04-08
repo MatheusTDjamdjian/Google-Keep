@@ -28,6 +28,7 @@ body.dark {
     --cor1: #00cf5d;
     --cor2: #2d00aa;
     --cor3: #b90000;
+    --text: #e8eaed;
     --text01: #b8b8b8;
     --bg-color: rgb(32, 33, 36);
     --menu-hover: rgba(199, 163, 2, 0.445);
@@ -93,21 +94,23 @@ header {
 }
 
 #button-menu {
+    width: 40px;
+    height: 40px;
     color: var(--text);
     display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     border: none;
     background: none;
     font-size: 22px;
-    padding: 6px;
     margin-left: 5px;
+    border-radius: 50%;
+    transition: .2s ease-in-out all;
 }
 
 #button-menu:hover {
-    background-color: #4242424f;
-    width: 30px;
-    height: 40px;
-    border-radius: 50%;
+    background-color: #4242424f;    
 }
 
 div#logo {
@@ -130,7 +133,6 @@ span#text-logo {
 
 #search-input {
     outline: none;
-    background-color: transparent;
     border: 1px solid transparent;
     border-radius: 5px;
     width: 100%;
@@ -140,12 +142,22 @@ span#text-logo {
     border-bottom-left-radius: 0;
 }
 
-#search-input:active:focus,
-#search-input:focus,
-#search-input:active,
-#search-input:hover {
-    background-color: white;
+#search-bar:active:focus,
+#search-bar:focus,
+#search-bar:active,
+#search-bar:hover {
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
+}
+#search-bar:active:focus #search-input,
+#search-bar:focus #search-input,
+#search-bar:active #search-input,
+#search-bar:hover #search-input,
+#search-bar:active:focus #search-symbol,
+#search-bar:focus #search-symbol,
+#search-bar:active #search-symbol,
+#search-bar:hover #search-symbol {
+    transition: .3s ease-in-out all;
+    background-color: var(--bg-color);
 }
 
 .control-bar {
@@ -154,6 +166,7 @@ span#text-logo {
 
 #search-bar {
     display: none;
+    border-radius: 5px;
 }
 
 @media (min-width: 768px) {
@@ -189,7 +202,7 @@ button.search-bar-btn:hover {
     color: rgb(87, 87, 87);
     font-size: 25px;
     border-radius: 5px;
-    padding-bottom: 5px;
+    padding: 5px 10px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin: 0;
@@ -290,13 +303,25 @@ button.search-bar-btn:hover {
     color: var(--text);
 }
 
+.container-notes {
+    display: grid;
+    grid-gap: 10px;
+    margin: 15px 0;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-auto-rows: 20px;
+    width: 85%;
+}
+
 .notes {
     color: var(--text);
-    max-width: 200px;
+    max-width: 240px;
     width: 100%;
-    padding: 5px;
-    margin: 8px;
+    margin: 0;
     border-radius: 5px;
+    break-inside: avoid;
+}
+.notes-content {
+    padding: 5px;
 }
 
 .notes:hover {
