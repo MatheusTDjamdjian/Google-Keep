@@ -7,6 +7,9 @@
 
 :root {
     --fonte-principal: 'Roboto', sans-serif;
+    --bg-img-logo: transparent;
+    --symbol-search-color: rgb(87, 87, 87);
+    --search-input:  rgba(87, 87, 87, 0.11);
     --cor0: #f0c18f;
     --cor1: #b4ddd3;
     --cor2: #ad95f1;
@@ -21,18 +24,17 @@
     --bg-menu-item-hover: #f1f3f4;
 }
 
-/* Nome errado para desabilitar por hora o modo dark */
-
 body.dark {
+    --bg-img-logo: transparent;
+    --symbol-search-color: #e8eaed;
+    --search-input: rgb(32, 33, 36);
     --cor0: #d37101;
     --cor1: #00cf5d;
     --cor2: #2d00aa;
     --cor3: #b90000;
     --text: #e8eaed;
-    --text01: #b8b8b8;
     --bg-color: rgb(32, 33, 36);
     --menu-hover: rgba(199, 163, 2, 0.445);
-    --box-shadow-header: #dadce0;
     --bg-menu-item: #41331c;
     --bg-menu-item-hover: #28292c;
 }
@@ -61,8 +63,7 @@ body {
 }
 
 header {
-    color: #fff;
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,6 +120,7 @@ div#logo {
 }
 
 #logo img {
+    background-color: var(--bg-img-logo);
     width: 40px;
     height: 40px;
 }
@@ -132,14 +134,18 @@ span#text-logo {
 }
 
 #search-input {
+    background-color: var(--search-input);
     outline: none;
     border: 1px solid transparent;
     border-radius: 5px;
     width: 100%;
     padding: 9px;
-    background-color: var(--input-color-bg);
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+#search-input::placeholder {
+    color: var(--text);
 }
 
 #search-bar:active:focus,
@@ -199,7 +205,7 @@ button.search-bar-btn:hover {
     cursor: pointer;
     border: none;
     background-color: var(--back-input);
-    color: rgb(87, 87, 87);
+    color: var(--symbol-search-color);
     font-size: 25px;
     border-radius: 5px;
     padding: 5px 10px;
