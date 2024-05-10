@@ -255,7 +255,13 @@ button.search-bar-btn:hover {
     height: 100%;
     width: 100%;
     max-width: 70px;
-}    
+} 
+.menu-config.closed {
+    max-width: 70px;
+}   
+.menu-config.closed .menu-list-p {
+    display: none;
+}
 
 #menu-list {
     display: flex;
