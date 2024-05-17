@@ -1,4 +1,6 @@
-function resizeGridItem(item){
+// Dark mode
+
+function resizeNoteHeight(item){
     grid = document.getElementsByClassName("container-notes")[0];
     rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
     rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
@@ -7,10 +9,10 @@ function resizeGridItem(item){
     item.style.gridRowEnd = "span "+rowSpan;
 }
 
-function resizeAllGridItems(){
+function resizeAllNotesHeight(){
     allItems = document.getElementsByClassName("notes");
     for(x=0;x<allItems.length;x++){
-        resizeGridItem(allItems[x]);
+        resizeNoteHeight(allItems[x]);
     }
 }
 
@@ -22,8 +24,10 @@ document.querySelector('.container-symbols-header').addEventListener('click', fu
         document.body.classList.add('dark');
     }
 });
-window.addEventListener("resize", resizeAllGridItems);
-resizeAllGridItems();
+window.addEventListener("resize", resizeAllNotesHeight);
+resizeAllNotesHeight();
+
+// Menu
 
 document.querySelector('#button-menu').addEventListener('click', (event) => {
     if(document.querySelector('.menu-config').classList.contains('closed')){

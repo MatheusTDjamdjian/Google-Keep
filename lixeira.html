@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixeira</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <!-- <link rel="stylesheet" href="estilos/media-query.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-left">
+            <div class="control-bar">
+                <button id="button-menu">&#9776;</button>
+                <div id="logo">
+                    <a href="inicial.html"><img src="imagens/keep_2020q4_48dp.png" alt="Google Keep Logo"></a>
+                    <span id="text-logo">Keep</span>
+                </div>
+            </div>
+            <div id="search-bar">
+                <span class="material-symbols-outlined" id="search-symbol">
+                        search
+                        </span>
+                <input type="text" id="search-input" placeholder="Pesquisar" autocomplete="off">
+                
+            </div>
+        </div>
+        <div class="div-input-symbols">
+            <span class="container-symbols-header">
+                <span class="material-symbols-outlined" id="dark-symbol">
+                light_mode
+                </span>
+            </span>
+        </div>
+    </header>
+    <!--Menu lateral-->
+    <div>
+        <div class="container-body">
+            <!-- Notas -->
+            <div>
+                <div class="content">
+                    <div class="container-menu">
+                        <div class="menu-config">
+                            <ul id="menu-list">
+                                <li class="menu-items">
+                                    <button type="button" class="menu-button active">
+                                        <a href="inicial.html" class="link-menu">
+                                            <span class="material-symbols-outlined" class="icons-menu">
+                                                lightbulb
+                                            </span><span class="menu-list-p">Notas</span>
+                                        </a>
+                                    </button>
+                                </li>
+                                <li class="menu-items">
+                                    <button type="button" class="menu-button">
+                                        <a href="arquivo.html" class="link-menu">
+                                            <span class="material-symbols-outlined" class="icons-menu">
+                                                folder_open
+                                            </span><span class="menu-list-p">Arquivo</span>
+                                        </a>
+                                    </button>
+                                </li>
+                                <li class="menu-items">
+                                    <button type="button" class="menu-button">
+                                        <a href="lixeira.html" class="link-menu">
+                                            <span class="material-symbols-outlined" class="icons-menu">
+                                                delete
+                                            </span><span class="menu-list-p">Lixeira</span>
+                                        </a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/notes.js"></script>
+</html>

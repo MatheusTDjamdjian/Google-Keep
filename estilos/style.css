@@ -81,6 +81,8 @@ header {
     justify-content: space-between;
 }
 
+/* Button e Symbols */
+
 .container-symbols-header {
     display: flex;
     position: relative;
@@ -114,6 +116,8 @@ header {
     background-color: #4242424f;    
 }
 
+/* Logo */
+
 div#logo {
     display: flex;
     align-items: center;
@@ -132,6 +136,8 @@ span#text-logo {
     position: relative;
     margin-right: 10px;
 }
+
+/* Spacebar */
 
 #search-input {
     background-color: var(--search-input);
@@ -228,6 +234,8 @@ button.search-bar-btn:hover {
     font-size: 30px;
 }
 
+/* */
+
 .hr-header {
     color: var(--text);
     width: 100vw;
@@ -283,6 +291,8 @@ button.search-bar-btn:hover {
     padding-left: 10px;
 }
 
+/* Menu */
+
 .menu-items {
     width: 100%;
 }
@@ -315,6 +325,20 @@ button.search-bar-btn:hover {
     color: var(--text);
 }
 
+/* Notas */
+
+.notes-controls {
+    margin-left: 10px;
+    margin-top: -4px;
+    overflow: hidden;
+    height: 0;
+    transition: height .5s;
+}
+
+.expandida .notes-controls {
+    height: auto;
+}
+
 .container-notes {
     display: grid;
     grid-gap: 10px;
@@ -328,17 +352,26 @@ button.search-bar-btn:hover {
     color: var(--text);
     max-width: 240px;
     width: 100%;
+    height: auto;
     margin: 0;
     border-radius: 5px;
     break-inside: avoid;
+    transition: height 0.3s ease;
 }
+
+.notes-expanded {
+    height: auto;
+}
+
 .notes-content {
-    padding: 5px;
+    padding: 3px;
 }
 
 .notes:hover {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
 }
+
+/* Conteúdo notas */
 
 .notes-title {
     margin-left: auto;
@@ -350,6 +383,8 @@ button.search-bar-btn:hover {
     color: var(--text);
     font-size: 13px;
 }
+
+/* Cores notas */
 
 #notes-one {
     background-color: var(--cor0);
@@ -417,4 +452,21 @@ button.search-bar-btn:hover {
 .expandida p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+/* Links / Mudar página menu */
+
+.link-menu {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-notes-fechar {
+    text-decoration: none;
+    color: var(--text);
+    background-color: transparent;
+    font-size: 16px;
+    border: solid black 1px;
 }
