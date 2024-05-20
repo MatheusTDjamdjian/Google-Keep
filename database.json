@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,    
+        "titulo": "Nota 1",    
+        "descricao": "Descrição 1",
+        "status": "excluida",
+        "marcadores": [
+            "pessoal",
+            "trabalho"
+        ]
+    },
+    {
+        "id": 2,    
+        "titulo": "Nota 2",    
+        "descricao": "Descrição 2",    
+        "status": "notas",
+        "marcadores": [
+            "pessoal",
+            "trabalho"
+        ]
+    }
+]

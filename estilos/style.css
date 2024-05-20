@@ -63,22 +63,22 @@ body {
 }
 
 header {
-    background-color: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    box-shadow: inset 0 -1px 0 0 var(--box-shadow-header);
+    background-color: var(--bg-color);
     height: 70px;
     width: 100%;
     padding: 5px;
-    position: fixed;
-    box-shadow: inset 0 -1px 0 0 var(--box-shadow-header);
     z-index: 2;
 }
 
 .header-left {
-    width: 85%;
     display: flex;
     justify-content: space-between;
+    width: 85%;
 }
 
 /* Button e Symbols */
@@ -90,15 +90,13 @@ header {
 }
 
 .div-input-symbols {
-    width: 15%;
     display: flex;
-    margin-right: 15px;
     justify-content: flex-end;
+    width: 15%;
+    margin-right: 15px;
 }
 
 #button-menu {
-    width: 40px;
-    height: 40px;
     color: var(--text);
     display: flex;
     align-items: center;
@@ -106,6 +104,8 @@ header {
     cursor: pointer;
     border: none;
     background: none;
+    width: 40px;
+    height: 40px;
     font-size: 22px;
     margin-left: 5px;
     border-radius: 50%;
@@ -160,6 +160,7 @@ span#text-logo {
 #search-bar:hover {
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
 }
+
 #search-bar:active:focus #search-input,
 #search-bar:focus #search-input,
 #search-bar:active #search-input,
@@ -183,9 +184,9 @@ span#text-logo {
 
 @media (min-width: 768px) {
     #search-bar {
-        width: 70%;
         display: flex;
         border: none;
+        width: 70%;
         margin-right: 15px;
         padding-top: 2px;
     }
@@ -210,6 +211,7 @@ button.search-bar-btn:hover {
     display: flex;
     cursor: pointer;
     border: none;
+    align-items: center;
     background-color: var(--back-input);
     color: var(--symbol-search-color);
     font-size: 25px;
@@ -218,7 +220,6 @@ button.search-bar-btn:hover {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin: 0;
-    align-items: center;
 }
 
 #search-symbol:hover {
@@ -234,7 +235,7 @@ button.search-bar-btn:hover {
     font-size: 30px;
 }
 
-/* */
+/* Conteúdo */
 
 .hr-header {
     color: var(--text);
@@ -249,9 +250,7 @@ button.search-bar-btn:hover {
     text-align: center;
     flex-wrap: wrap;
     width: 100vw;
-    padding-left: 80px;
-    padding-right: 10px;
-    padding-top: 80px;
+    padding: 80px 10px 0px 80px;
 }
 
 .menu-config {
@@ -264,9 +263,11 @@ button.search-bar-btn:hover {
     width: 100%;
     max-width: 70px;
 } 
+
 .menu-config.closed {
     max-width: 70px;
-}   
+} 
+
 .menu-config.closed .menu-list-p {
     display: none;
 }
@@ -298,11 +299,11 @@ button.search-bar-btn:hover {
 }
 
 .menu-items .menu-button {
-    width: 100%;
     display: flex;
     align-items: center;
     background-color: var(--bg-color);
     padding: 13px 10px;
+    width: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -328,11 +329,18 @@ button.search-bar-btn:hover {
 /* Notas */
 
 .notes-controls {
-    margin-left: 10px;
-    margin-top: -4px;
     overflow: hidden;
-    height: 0;
     transition: height .5s;
+    margin: -4px 0px 0px 10px;
+    height: 0;
+}
+
+.controls-on {
+    height: 47px;
+}
+
+.controls-off {
+    height: 0;
 }
 
 .expandida .notes-controls {
@@ -341,22 +349,22 @@ button.search-bar-btn:hover {
 
 .container-notes {
     display: grid;
-    grid-gap: 10px;
-    margin: 15px 0;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     grid-auto-rows: 20px;
+    grid-gap: 10px;
+    margin: 15px 0;
     width: 85%;
 }
 
 .notes {
     color: var(--text);
+    break-inside: avoid;
+    transition: height 0.3s ease;
     max-width: 240px;
     width: 100%;
     height: auto;
     margin: 0;
     border-radius: 5px;
-    break-inside: avoid;
-    transition: height 0.3s ease;
 }
 
 .notes-expanded {
@@ -419,28 +427,28 @@ button.search-bar-btn:hover {
 /* Expansivo notas */
 
 .overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    display: none;
 }
 
 .expandida {
     position: fixed;
-    top: 50%;
-    left: 50%;
+    overflow-y: auto;
     transform: translate(-50%, -50%);
     background-color: white;
     border-color: white;
+    top: 50%;
+    left: 50%;
     padding: 20px;
     border-radius: 8px;
     max-width: 30%;
     max-height: 60%;
-    overflow-y: auto;
     z-index: 1000;
 }
 

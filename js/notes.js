@@ -20,13 +20,14 @@ overlay.addEventListener('click', () => {
 // Botões notas
 
 document.addEventListener("DOMContentLoaded", function() {
-    const notes = document.querySelectorAll(".notes");
+    var notes = document.querySelectorAll(".notes");
 
     notes.forEach(note => {
         note.addEventListener("mouseenter", () => {
-            const controls = note.querySelector(".notes-controls");
+            var controls = note.querySelector(".notes-controls");
             if (controls && !note.classList.contains('expandida')) {
-                controls.style.height = "47px";
+                controls.classList.add("controls-on");
+                controls.classList.remove("controls-off");
                 setTimeout(() => {
                     resizeAllNotesHeight();
                 }, 500);
@@ -34,9 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         note.addEventListener("mouseleave", () => {
-            const controls = note.querySelector(".notes-controls");
+            var controls = note.querySelector(".notes-controls");
             if (controls && !note.classList.contains('expandida')) {
-                controls.style.height = "0";
+                controls.classList.add("controls-off");
+                controls.classList.remove("controls-on");
                 setTimeout(() => {
                     resizeAllNotesHeight();
                 }, 500);
@@ -48,20 +50,25 @@ document.addEventListener("DOMContentLoaded", function() {
 // Clique fechar a nota
 
 document.addEventListener("DOMContentLoaded", function() {
-    const notes = document.querySelectorAll(".notes");
-    const closeButton = document.querySelectorAll(".btn-notes-fechar");
+   var closeButton = document.querySelectorAll(".btn-notes-fechar");
 
     closeButton.forEach(button => {
-        button.addEventListener("click", function() {
-            const expandedNote = document.querySelector(".notes.expandida");
-    
+        button.addEventListener("click", function(e) {
+            e.stopPropagation();
+            var expandedNote = document.querySelector(".notes.expandida");
+
             if (expandedNote) {
-                const controls = expandedNote.querySelector(".notes-controls");
-                const content = expandedNote.querySelector(".notes-content");
-    
                 expandedNote.classList.remove("expandida"); 
-                controls.style.display = "none"; 
-                content.style.height = "auto"; 
+                overlay.style.display = 'none';
+
+                var controls = expandedNote.querySelector(".notes-controls");
+                var content = expandedNote.querySelector(".notes-content");
+
+                controls.classList.add("controls-off");
+                controls.classList.remove("controls-on");
+                setTimeout(() => {
+                    resizeAllNotesHeight();
+                }, 500);
             }
         });
     });
