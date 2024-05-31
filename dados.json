@@ -64,144 +64,240 @@
           "id": "n1",
           "title": "Nota 1",
           "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n2",
           "title": "Nota 2",
           "text": "Lorem ipsum dolo. Lorem ipsum dolor sit amet consectetu harum reiciendis delectus assumenda enim consectetur, veritatis esse odio nam aliquid id commodi quos dignissimos, et ratione non aut?",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n3",
           "title": "Nota 3",
           "text": "Lorem ipsut. Optio accusantium maxime natus impedit quia ad nihil. Quos, sciunt quis explicabo, ipsa deserunt",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n4",
           "title": "Nota 4",
           "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunio ullam, dolores iure sequi dolore doloremque ea hic!",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n5",
           "title": "Nota 1",
           "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudianda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem minima suscipit ipsum quos veniam nemo similique dolorem explicabo? Perferendis consectetur illo nisi, aut quibusdam eius. Fugiat ut aspernatur quia dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nesciunt ut! Dolorem aliquam labore commodi minima aperiam fuga magni porro atque? Similique, cumque minus obcaecati sint illo optio. Ea, pariatur!",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n6",
           "title": "Nota 2",
           "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n7",
           "title": "Nota 3",
           "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, obcaecati illum delectus officiis dolorum cum fuga mollitia itaque dolore molestiae sunt illo repudiandae magni velit totam! Sequi ullam ea inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam similique dolores ratione fugit numquam. Consequuntur sapiente officiis error, sint iusto, corporis fuga ducimus eligendi, magnam exercitationem sed distinctio ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex sit eveniet, deleniti doloribus velit accusantium, sed, pariatur adipisci necessitatibus sequi eum cum exercitationem! Delectus accusantium sapiente iure illo adipisci!",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
           "id": "n8",
           "title": "Nota 4",
           "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
+          "marcadores": [
+            "pessoal",
+            "trabalho"
+          ],
           "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n9",
             "title": "Nota 1",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n10",
             "title": "Nota 2",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n11",
             "title": "Nota 3",
             "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n12",
             "title": "Nota 4",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n13",
             "title": "Nota 1",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n14",
             "title": "Nota 2",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n15",
             "title": "Nota 3",
             "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n16",
             "title": "Nota 4",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n17",
             "title": "Nota 1",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n18",
             "title": "Nota 2",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n19",
             "title": "Nota 3",
             "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n20",
             "title": "Nota 4",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n21",
             "title": "Nota 1",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n22",
             "title": "Nota 2",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n23",
             "title": "Nota 3",
             "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         },
         {
             "id": "n24",
             "title": "Nota 4",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
+            "marcadores": [
+              "pessoal",
+              "trabalho"
+            ],
             "controls": ["folder_open", "delete", "Fechar"]
         }
       ]
