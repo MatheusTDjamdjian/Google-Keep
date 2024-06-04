@@ -1,4 +1,5 @@
 // Buscar dados no JSON 
+
 fetch('dados.json')
     .then(response => response.json())
     .then(data => {
@@ -8,7 +9,8 @@ fetch('dados.json')
         resizeAllNotesHeight();
     });
 
-function getRandomNumber() {
+
+    function getRandomNumber() {
     return Math.floor(Math.random() * 4) + 1;
 }
 
@@ -20,6 +22,7 @@ const colorClasses = {
 }
 
 // Função para carregar e renderizar o arquivo HTML
+
 const renderizarNota = (id, title, text, controls) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
@@ -48,8 +51,7 @@ const renderizarNota = (id, title, text, controls) => {
         const controlButton = document.createElement('button');
         controlButton.textContent = control;
         controlsContainer.appendChild(controlButton);
-    });
-
+});
 
     notaHtml.appendChild(notesContent);
     notesContent.appendChild(idInput);
@@ -85,6 +87,7 @@ document.querySelector('.container-symbols-header').addEventListener('click', fu
         document.body.classList.add('dark');
     }
 });
+
 window.addEventListener("resize", resizeAllNotesHeight);
 resizeAllNotesHeight();
 
