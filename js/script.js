@@ -1,25 +1,45 @@
 // Buscar dados no JSON 
-
 fetch('dados.json')
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
-            renderizarNota(note.id, note.title, note.text, note.controls, []);
+            renderizarNota(note.id, note.title, note.text, note.controls);
         });
-    })
-    .catch(error => console.error('Erro ao buscar os dados JSON:', error));
+    });
 
 // Função para carregar e renderizar o arquivo HTML
-
 const renderizarNota = (id, title, text, controls) => {
-    const conteudoResumido = conteudo.substr(0, 600) + '...';
-    const notaHtml = ` <div class="notes notes-one notes-two notes-three notes-four">
-                            <input type="hidden" class="id-nota" value="${id}">
-                            <h1 class="notes-title">${title}</h1>
-                            <p class="notes-text">${text}</p>
-                            <div class="notes-controls"></div>
-                       </div>`;
-    document.querySelector('.container-notes').innerHTML += notaHtml; 
+    const notaHtml = document.createElement('div');
+    notaHtml.classList.add('notes', 'notes-one', 'notes-two', 'notes-three', 'notes-four');
+
+    const idInput = document.createElement('input');
+    idInput.setAttribute('type', 'hidden');
+    idInput.classList.add('id-nota');
+    idInput.value = id;
+
+    const titleElement = document.createElement('h1');
+    titleElement.classList.add('notes-title');
+    titleElement.textContent = title;
+
+    const textElement = document.createElement('p');
+    textElement.classList.add('notes-text', 'notes-content');
+    textElement.textContent = text;
+
+    const controlsContainer = document.createElement('div');
+    controlsContainer.classList.add('notes-controls');
+    
+    controls.forEach(control => {
+        const controlButton = document.createElement('button');
+        controlButton.textContent = control;
+        controlsContainer.appendChild(controlButton);
+    });
+
+    notaHtml.appendChild(idInput);
+    notaHtml.appendChild(titleElement);
+    notaHtml.appendChild(textElement);
+    notaHtml.appendChild(controlsContainer);
+
+    document.querySelector('.container-notes').appendChild(notaHtml);
 }
             
 // Dark mode
