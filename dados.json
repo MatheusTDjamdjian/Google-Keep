@@ -11,15 +11,13 @@
       "id": "n2",
       "title": "Nota 2",
       "text": "Lorem ipsum dolo. Lorem ipsum dolor sit amet consectetu harum reiciendis delectus assumenda enim consectetur, veritatis esse odio nam aliquid id commodi quos dignissimos, et ratione non aut?",
-      "controls": ["folder_open", "delete", "Fechar"],
-      "labels": ["viagem"]
+      "controls": ["folder_open", "delete", "Fechar"]
     },
     {
       "id": "n3",
       "title": "Nota 3",
       "text": "Lorem ipsut. Optio accusantium maxime natus impedit quia ad nihil. Quos, sciunt quis explicabo, ipsa deserunt",
-      "controls": ["folder_open", "delete", "Fechar"],
-      "labels": ["trabalho", "pessoal", "escola"]
+      "controls": ["folder_open", "delete", "Fechar"]
     },
     {
       "id": "n4",
