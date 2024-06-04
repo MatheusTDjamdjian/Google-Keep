@@ -5,12 +5,28 @@ fetch('dados.json')
         data.notes.forEach(note => {
             renderizarNota(note.id, note.title, note.text, note.controls);
         });
+        resizeAllNotesHeight();
     });
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 4) + 1;
+}
+
+const colorClasses = {
+    1: 'notes-one',
+    2: 'notes-two',
+    3: 'notes-three',
+    4: 'notes-four',
+}
 
 // Função para carregar e renderizar o arquivo HTML
 const renderizarNota = (id, title, text, controls) => {
     const notaHtml = document.createElement('div');
-    notaHtml.classList.add('notes', 'notes-one', 'notes-two', 'notes-three', 'notes-four');
+    notaHtml.classList.add('notes');
+    notaHtml.classList.add(colorClasses[getRandomNumber()]);
+
+    const notesContent = document.createElement('div');
+    notesContent.classList.add('notes-content');
 
     const idInput = document.createElement('input');
     idInput.setAttribute('type', 'hidden');
@@ -22,7 +38,7 @@ const renderizarNota = (id, title, text, controls) => {
     titleElement.textContent = title;
 
     const textElement = document.createElement('p');
-    textElement.classList.add('notes-text', 'notes-content');
+    textElement.classList.add('notes-text');
     textElement.textContent = text;
 
     const controlsContainer = document.createElement('div');
@@ -34,10 +50,12 @@ const renderizarNota = (id, title, text, controls) => {
         controlsContainer.appendChild(controlButton);
     });
 
-    notaHtml.appendChild(idInput);
-    notaHtml.appendChild(titleElement);
-    notaHtml.appendChild(textElement);
-    notaHtml.appendChild(controlsContainer);
+
+    notaHtml.appendChild(notesContent);
+    notesContent.appendChild(idInput);
+    notesContent.appendChild(titleElement);
+    notesContent.appendChild(textElement);
+    notesContent.appendChild(controlsContainer);
 
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
@@ -49,7 +67,6 @@ function resizeNoteHeight(item){
     rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
     rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
     rowSpan = Math.ceil((item.querySelector('.notes-content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
-    console.log(rowHeight, rowGap, item.querySelector('.notes-content').getBoundingClientRect().height)
     item.style.gridRowEnd = "span "+rowSpan;
 }
 
