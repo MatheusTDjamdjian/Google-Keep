@@ -1,18 +1,27 @@
+// Buscar dados no JSON 
+
+fetch('dados.json')
+    .then(response => response.json())
+    .then(data => {
+        data.notes.forEach(note => {
+            renderizarNota(note.id, note.title, note.text, note.controls, []);
+        });
+    })
+    .catch(error => console.error('Erro ao buscar os dados JSON:', error));
+
 // Função para carregar e renderizar o arquivo HTML
 
-const renderizarNota = (id, title, text, controls, marcadores) => {
+const renderizarNota = (id, title, text, controls) => {
     const conteudoResumido = conteudo.substr(0, 600) + '...';
     const notaHtml = ` <div class="notes notes-one notes-two notes-three notes-four">
                             <input type="hidden" class="id-nota" value="${id}">
                             <h1 class="notes-title">${title}</h1>
                             <p class="notes-text">${text}</p>
                             <div class="notes-controls"></div>
-                            <p>${marcadores.join(', ')}</p>
                        </div>`;
     document.querySelector('.container-notes').innerHTML += notaHtml; 
 }
             
-
 // Dark mode
 
 function resizeNoteHeight(item){
@@ -51,14 +60,3 @@ document.querySelector('#button-menu').addEventListener('click', (event) => {
         document.querySelector('.menu-config').classList.add('closed');
     }
 });
-
-// Buscar dados no JSON 
-
-fetch('dados.json')
-            .then(response => response.json())
-            .then(data => {
-                data.body.notes.forEach(element => {
-                    console.log(element.id)
-                });
-            })
-.catch(error => console.error('Erro ao buscar os dados JSON:', error));
