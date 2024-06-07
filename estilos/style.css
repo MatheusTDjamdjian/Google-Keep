@@ -296,6 +296,7 @@ button.search-bar-btn:hover {
 
 .menu-items {
     width: 100%;
+    display: flex;
 }
 
 .menu-items .menu-button {
