@@ -42,20 +42,6 @@ function renderMenuLabels(marcador) {
     span.classList.add("menu-list-p");
 
     document.querySelector('#button-menu').insertBefore(li, document.querySelector('#button-menu .menu-items'))
-
-    
-    /*
-    const menuDiv = document.querySelector('.menu-items');
-
-    const ul = document.createElement('ul');
-
-    labelsUnique.forEach(label => {
-        const li = document.createElement('li');
-        li.textContent = label;
-        ul.appendChild(li);
-    });
-
-    menuDiv.appendChild(ul);*/
 }
 
 // Chamar a função para renderizar as labels
