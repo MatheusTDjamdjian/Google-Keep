@@ -395,19 +395,19 @@ button.search-bar-btn:hover {
 
 /* Cores notas */
 
-.notes-one {
+.notes-color-one {
     background-color: var(--cor0);
 }
 
-.notes-two {
+.notes-color-two {
     background-color: var(--cor1);
 }
 
-.notes-three {
+.notes-color-three {
     background-color: var(--cor2);
 }
 
-.notes-four {
+.notes-color-four {
     background-color: var(--cor3);
 }
 

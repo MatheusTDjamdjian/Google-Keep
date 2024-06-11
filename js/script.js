@@ -15,10 +15,10 @@ fetch('dados.json')
 }
 
 const colorClasses = {
-    1: 'notes-one',
-    2: 'notes-two',
-    3: 'notes-three',
-    4: 'notes-four',
+    1: 'notes-color-one',
+    2: 'notes-color-two',
+    3: 'notes-color-three',
+    4: 'notes-color-four',
 }
 
 // Função para carregar e renderizar o arquivo HTML
