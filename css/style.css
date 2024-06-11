@@ -327,6 +327,13 @@ button.search-bar-btn:hover {
     color: var(--text);
 }
 
+.link-menu {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Notas */
 
 .notes-controls {
@@ -378,6 +385,14 @@ button.search-bar-btn:hover {
 
 .notes:hover {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-notes-fechar {
+    text-decoration: none;
+    color: var(--text);
+    background-color: transparent;
+    font-size: 16px;
+    border: solid black 1px;
 }
 
 /* Conteúdo notas */
@@ -461,21 +476,4 @@ button.search-bar-btn:hover {
 .expandida p {
     font-size: 18px;
     line-height: 1.6;
-}
-
-/* Links / Mudar página menu */
-
-.link-menu {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.btn-notes-fechar {
-    text-decoration: none;
-    color: var(--text);
-    background-color: transparent;
-    font-size: 16px;
-    border: solid black 1px;
 }
