@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const notesContainer = document.getElementById('notes-container');
     const dynamicLabelsContainer = document.getElementById('dynamic-labels');
 
-    fetch('dados.json')
+    fetch('json/dados.json')
         .then(response => response.json())
         .then(data => {
             const notes = data.notes;

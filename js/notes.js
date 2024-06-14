@@ -1,6 +1,6 @@
 // Buscar dados no JSON 
 
-fetch('dados.json')
+fetch('json/dados.json')
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
