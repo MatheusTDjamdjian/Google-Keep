@@ -1,4 +1,5 @@
 // Buscar dados no JSON 
+var overlay = document.querySelector('.overlay');
 
 fetch('json/dados.json')
     .then(response => response.json())
@@ -7,6 +8,15 @@ fetch('json/dados.json')
             renderizarNota(note.id, note.title, note.text, note.controls);
         });
         resizeAllNotesHeight();
+         var notes = document.querySelectorAll('.notes');
+         if(overlay) {             
+             overlay.addEventListener('click', () => {
+                 overlay.style.display = 'none';
+                 notes.forEach(note => {
+                     note.classList.remove('expandida');
+                 });
+             });
+         }
     });
 
 
@@ -27,6 +37,14 @@ const renderizarNota = (id, title, text, controls) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
     notaHtml.classList.add(colorClasses[getRandomNumber()]);
+    notaHtml.addEventListener('click', (e) => {
+        overlay.style.display = 'block';
+        if(Array.from(e.target.classList).indexOf('notes') === -1) {
+            e.target.closest('.notes').classList.add('expandida');
+        } else {
+            e.target.classList.add('expandida');
+        }
+    });
 
     const notesContent = document.createElement('div');
     notesContent.classList.add('notes-content');
@@ -94,22 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Expandir e fechar a nota
 
- var notes = document.querySelectorAll('.notes');
- var overlay = document.querySelector('.overlay');
 
- notes.forEach(note => {
-    note.addEventListener('click', () => {
-        overlay.style.display = 'block';
-        note.classList.add('expandida');
-    });
-});
-
- overlay.addEventListener('click', () => {
-    overlay.style.display = 'none';
-    notes.forEach(note => {
-        note.classList.remove('expandida');
-    });
-});
 
 // Clique fechar a nota
 
