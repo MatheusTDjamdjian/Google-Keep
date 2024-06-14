@@ -110,10 +110,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Expandir e fechar a nota
-
-
-
 // Clique fechar a nota
 
 document.addEventListener("DOMContentLoaded", function() {
