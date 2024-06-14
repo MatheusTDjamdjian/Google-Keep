@@ -22,7 +22,7 @@
             <div id="search-bar">
                 <span class="material-symbols-outlined" id="search-symbol">
                         search
-                        </span>
+                </span>
                 <input type="text" id="search-input" placeholder="Pesquisar" autocomplete="off">
             </div>
         </div>
@@ -44,9 +44,9 @@
                         <div class="menu-config">
                             <ul id="menu-list">
                                 <li class="menu-items">
-                                    <button type="button" class="menu-button active">
+                                    <button type="button" class="menu-button active" data-label="all">
                                         <a href="inicial.html" class="link-menu">
-                                            <span class="material-symbols-outlined" class="icons-menu">
+                                            <span class="material-symbols-outlined icons-menu">
                                                 lightbulb
                                             </span><span class="menu-list-p">Notas</span>
                                         </a>
@@ -55,7 +55,7 @@
                                 <li class="menu-items">
                                     <button type="button" class="menu-button">
                                         <a href="arquivo.html" class="link-menu">
-                                            <span class="material-symbols-outlined" class="icons-menu">
+                                            <span class="material-symbols-outlined icons-menu">
                                                 folder_open
                                             </span><span class="menu-list-p">Arquivo</span>
                                         </a>
@@ -64,22 +64,17 @@
                                 <li class="menu-items">
                                     <button type="button" class="menu-button">
                                         <a href="lixeira.html" class="link-menu">
-                                            <span class="material-symbols-outlined" class="icons-menu">
+                                            <span class="material-symbols-outlined icons-menu">
                                                 delete
                                             </span><span class="menu-list-p">Lixeira</span>
                                         </a>
                                     </button>
                                 </li>
+                                <div id="dynamic-labels"></div>
                             </ul>
                         </div>
                     </div>
-                    <div class="container-notes">
-                        <div class="overlay">
-                            <span class="material-symbols-outlined" class="icons-menu">
-                                delete
-                            <span class="material-symbols-outlined" class="icons-menu">
-                                folder_open
-                        </div>
+                        <div class="container-notes" id="notes-container">
                     </div>
                 </div>
             </div>
