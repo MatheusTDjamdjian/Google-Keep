@@ -9,7 +9,6 @@ fetch('json/dados.json')
         });
         resizeAllNotesHeight();
         
-        // Adicionar event listeners após as notas serem renderizadas
         addEventListenersToNotes();
     });
 
@@ -74,7 +73,7 @@ const renderizarNota = (id, title, text, controls) => {
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
 
-// Função para adicionar event listeners aos botões de controle
+// Função para adicionar eventos aos botões de controle
 const addEventListenersToControls = (note) => {
     const closeButton = note.querySelectorAll(".btn-notes-fechar");
 
@@ -100,7 +99,7 @@ const addEventListenersToControls = (note) => {
     });
 }
 
-// Função para adicionar event listeners às notas
+// Função para adicionar evento às notas
 const addEventListenersToNotes = () => {
     var notes = document.querySelectorAll(".notes");
 
@@ -127,7 +126,7 @@ const addEventListenersToNotes = () => {
             }
         });
 
-        // Adicionar event listeners aos controles ao carregar a página
+        // Adicionar eventos aos controles ao carregar a página
         addEventListenersToControls(note);
     });
 
