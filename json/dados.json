@@ -4,1050 +4,1050 @@
       "id": "n1",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n2",
       "title": "Nota",
       "text": "Lorem ipsum dolo. Lorem ipsum dolor sit amet consectetu harum reiciendis delectus assumenda enim consectetur, veritatis esse odio nam aliquid id commodi quos dignissimos, et ratione non aut?",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho","escola"]
     },
     {
       "id": "n3",
       "title": "Nota",
       "text": "Lorem ipsut. Optio accusantium maxime natus impedit quia ad nihil. Quos, sciunt quis explicabo, ipsa deserunt",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n4",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n5",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudianda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem minima suscipit ipsum quos veniam nemo similique dolorem explicabo? Perferendis consectetur illo nisi, aut quibusdam eius. Fugiat ut aspernatur quia dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, nesciunt ut! Dolorem aliquam labore commodi minima aperiam fuga magni porro atque? Similique, cumque minus obcaecati sint illo optio. Ea, pariatur!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n6",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n7",
       "title": "Nota",
       "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, obcaecati illum delectus officiis dolorum cum fuga mollitia itaque dolore molestiae sunt illo repudiandae magni velit totam! Sequi ullam ea inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam similique dolores ratione fugit numquam. Consequuntur sapiente officiis error, sint iusto, corporis fuga ducimus eligendi, magnam exercitationem sed distinctio ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex sit eveniet, deleniti doloribus velit accusantium, sed, pariatur adipisci necessitatibus sequi eum cum exercitationem! Delectus accusantium sapiente iure illo adipisci!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n8",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n9",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n10",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n11",
       "title": "Nota",
       "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n12",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n13",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n14",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n15",
       "title": "Nota",
       "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n16",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n17",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n18",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n19",
       "title": "Nota",
       "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n20",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n21",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit molestiae earum esse quisquam impedit praesentium, recusandae quibusdam harum nam, ea aspernatur ex repudiandae iusto. Nemo, nulla! Facere, iste deserunt!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n22",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab laboriosam nam. Qui aperiam quam tempore, ducimus libero ab id deserunt laborum sint facere minima alias ea sed molestias sunt.",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n23",
       "title": "Nota",
       "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aut eveniet facilis molestias magnam repudiandae soluta a maiores, sed quae architecto obcaecati, dicta corporis ipsa inventore doloremque veritatis earum cupiditate?",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n24",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n25",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n26",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n27",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n28",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n29",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n30",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n31",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n32",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n33",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n34",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n35",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n36",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n37",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": [ "pessoal", "escola"]
     },
     {
       "id": "n38",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n39",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": [ "pessoal", "escola"]
     },
     {
       "id": "n40",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n41",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n42",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n43",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n44",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n45",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "46",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n47",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n48",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n49",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n50",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n51",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n52",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n53",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n54",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n55",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n56",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n57",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n58",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n59",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n60",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n61",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n62",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n63",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n64",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n65",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n66",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n67",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n68",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n69",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n70",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n71",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n72",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n73",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n74",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n75",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n76",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n77",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n78",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n79",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n80",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n81",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n82",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n83",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n84",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n85",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n86",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n87",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n88",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n89",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n90",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n91",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n92",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n93",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n94",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n95",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n96",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n97",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n98",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n99",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n100",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n101",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n102",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n103",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n104",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n105",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n106",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n107",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n108",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n109",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n110",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n111",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n112",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n113",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n114",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n115",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n116",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n117",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n118",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n119",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n120",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n121",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n122",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n123",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n124",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n125",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n126",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n127",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n128",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n129",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n130",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n131",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n132",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n133",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n134",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n135",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n136",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal"]
     },
     {
       "id": "n137",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "escola"]
     },
     {
       "id": "n138",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n139",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n140",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n141",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n142",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["escola"]
     },
     {
       "id": "n143",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal"]
     },
     {
       "id": "n144",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n145",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n146",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho"]
     },
     {
       "id": "n147",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n148",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["pessoal", "escola"]
     },
     {
       "id": "n149",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     },
     {
       "id": "n150",
       "title": "Nota",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sunt quo, unde facere expedita error id maxime optio cupiditate alias odio ullam, dolores iure sequi dolore doloremque ea hic!",
-      "controls": ["folder_open", "delete", "Fechar"],
+      "controls": ["Arquivo", "Lixeira", "Fechar"],
       "labels": ["trabalho", "pessoal", "escola"]
     }
   ]
