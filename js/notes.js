@@ -9,38 +9,8 @@ fetch('json/dados.json')
         });
         resizeAllNotesHeight();
         
-        var notes = document.querySelectorAll('.notes');
-        if (overlay) {             
-            overlay.addEventListener('click', () => {
-                overlay.style.display = 'none';
-                notes.forEach(note => {
-                    note.classList.remove('expandida');
-                });
-            });
-        }
-
-       
-        var closeButton = document.querySelectorAll(".btn-notes-fechar");
-        closeButton.forEach(button => {
-            button.addEventListener("click", function(e) {
-                e.stopPropagation();
-                var expandedNote = document.querySelector(".notes.expandida");
-
-                if (expandedNote) {
-                    expandedNote.classList.remove("expandida"); 
-                    overlay.style.display = 'none';
-
-                    var controls = expandedNote.querySelector(".notes-controls");
-                    var content = expandedNote.querySelector(".notes-content");
-
-                    controls.classList.add("controls-off");
-                    controls.classList.remove("controls-on");
-                    setTimeout(() => {
-                        resizeAllNotesHeight();
-                    }, 500);
-                }
-            });
-        });
+        // Adicionar event listeners após as notas serem renderizadas
+        addEventListenersToNotes();
     });
 
 function getRandomNumber() {
@@ -66,6 +36,7 @@ const renderizarNota = (id, title, text, controls) => {
         } else {
             e.target.classList.add('expandida');
         }
+        addEventListenersToControls(e.target.closest('.notes') || e.target);
     });
 
     const notesContent = document.createElement('div');
@@ -90,6 +61,7 @@ const renderizarNota = (id, title, text, controls) => {
     controls.forEach(control => {
         const controlButton = document.createElement('button');
         controlButton.textContent = control;
+        controlButton.classList.add('btn-notes-fechar');
         controlsContainer.appendChild(controlButton);
     });
 
@@ -102,8 +74,34 @@ const renderizarNota = (id, title, text, controls) => {
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
 
-// Botões notas
-document.addEventListener("DOMContentLoaded", function() {
+// Função para adicionar event listeners aos botões de controle
+const addEventListenersToControls = (note) => {
+    const closeButton = note.querySelectorAll(".btn-notes-fechar");
+
+    closeButton.forEach(button => {
+        button.addEventListener("click", function(e) {
+            e.stopPropagation();
+            var expandedNote = document.querySelector(".notes.expandida");
+
+            if (expandedNote) {
+                expandedNote.classList.remove("expandida"); 
+                overlay.style.display = 'none';
+
+                var controls = expandedNote.querySelector(".notes-controls");
+                var content = expandedNote.querySelector(".notes-content");
+
+                controls.classList.add("controls-off");
+                controls.classList.remove("controls-on");
+                setTimeout(() => {
+                    resizeAllNotesHeight();
+                }, 500);
+            }
+        });
+    });
+}
+
+// Função para adicionar event listeners às notas
+const addEventListenersToNotes = () => {
     var notes = document.querySelectorAll(".notes");
 
     notes.forEach(note => {
@@ -128,5 +126,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 }, 500);
             }
         });
+
+        // Adicionar event listeners aos controles ao carregar a página
+        addEventListenersToControls(note);
     });
+
+    if (overlay) {             
+        overlay.addEventListener('click', () => {
+            overlay.style.display = 'none';
+            notes.forEach(note => {
+                note.classList.remove('expandida');
+            });
+        });
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    addEventListenersToNotes();
 });
