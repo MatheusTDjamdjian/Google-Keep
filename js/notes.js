@@ -8,19 +8,42 @@ fetch('json/dados.json')
             renderizarNota(note.id, note.title, note.text, note.controls);
         });
         resizeAllNotesHeight();
-         var notes = document.querySelectorAll('.notes');
-         if(overlay) {             
-             overlay.addEventListener('click', () => {
-                 overlay.style.display = 'none';
-                 notes.forEach(note => {
-                     note.classList.remove('expandida');
-                 });
-             });
-         }
+        
+        var notes = document.querySelectorAll('.notes');
+        if (overlay) {             
+            overlay.addEventListener('click', () => {
+                overlay.style.display = 'none';
+                notes.forEach(note => {
+                    note.classList.remove('expandida');
+                });
+            });
+        }
+
+       
+        var closeButton = document.querySelectorAll(".btn-notes-fechar");
+        closeButton.forEach(button => {
+            button.addEventListener("click", function(e) {
+                e.stopPropagation();
+                var expandedNote = document.querySelector(".notes.expandida");
+
+                if (expandedNote) {
+                    expandedNote.classList.remove("expandida"); 
+                    overlay.style.display = 'none';
+
+                    var controls = expandedNote.querySelector(".notes-controls");
+                    var content = expandedNote.querySelector(".notes-content");
+
+                    controls.classList.add("controls-off");
+                    controls.classList.remove("controls-on");
+                    setTimeout(() => {
+                        resizeAllNotesHeight();
+                    }, 500);
+                }
+            });
+        });
     });
 
-
-    function getRandomNumber() {
+function getRandomNumber() {
     return Math.floor(Math.random() * 4) + 1;
 }
 
@@ -32,14 +55,13 @@ const colorClasses = {
 }
 
 // Função para carregar e renderizar o arquivo HTML
-
 const renderizarNota = (id, title, text, controls) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
     notaHtml.classList.add(colorClasses[getRandomNumber()]);
     notaHtml.addEventListener('click', (e) => {
         overlay.style.display = 'block';
-        if(Array.from(e.target.classList).indexOf('notes') === -1) {
+        if (Array.from(e.target.classList).indexOf('notes') === -1) {
             e.target.closest('.notes').classList.add('expandida');
         } else {
             e.target.classList.add('expandida');
@@ -69,7 +91,7 @@ const renderizarNota = (id, title, text, controls) => {
         const controlButton = document.createElement('button');
         controlButton.textContent = control;
         controlsContainer.appendChild(controlButton);
-});
+    });
 
     notaHtml.appendChild(notesContent);
     notesContent.appendChild(idInput);
@@ -81,7 +103,6 @@ const renderizarNota = (id, title, text, controls) => {
 }
 
 // Botões notas
-
 document.addEventListener("DOMContentLoaded", function() {
     var notes = document.querySelectorAll(".notes");
 
@@ -100,33 +121,6 @@ document.addEventListener("DOMContentLoaded", function() {
         note.addEventListener("mouseleave", () => {
             var controls = note.querySelector(".notes-controls");
             if (controls && !note.classList.contains('expandida')) {
-                controls.classList.add("controls-off");
-                controls.classList.remove("controls-on");
-                setTimeout(() => {
-                    resizeAllNotesHeight();
-                }, 500);
-            }
-        });
-    });
-});
-
-// Clique fechar a nota
-
-document.addEventListener("DOMContentLoaded", function() {
-   var closeButton = document.querySelectorAll(".btn-notes-fechar");
-
-    closeButton.forEach(button => {
-        button.addEventListener("click", function(e) {
-            e.stopPropagation();
-            var expandedNote = document.querySelector(".notes.expandida");
-
-            if (expandedNote) {
-                expandedNote.classList.remove("expandida"); 
-                overlay.style.display = 'none';
-
-                var controls = expandedNote.querySelector(".notes-controls");
-                var content = expandedNote.querySelector(".notes-content");
-
                 controls.classList.add("controls-off");
                 controls.classList.remove("controls-on");
                 setTimeout(() => {
