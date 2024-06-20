@@ -5,7 +5,7 @@ fetch('json/dados.json')
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
-            renderizarNota(note.id, note.title, note.text, note.controls);
+            renderizarNota(note.id, note.title, note.text, note.controls, note.labels);
         });
         resizeAllNotesHeight();
         
@@ -24,10 +24,11 @@ const colorClasses = {
 }
 
 // Função para carregar e renderizar o arquivo HTML
-const renderizarNota = (id, title, text, controls) => {
+const renderizarNota = (id, title, text, controls, labels = []) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
     notaHtml.classList.add(colorClasses[getRandomNumber()]);
+    notaHtml.setAttribute('data-labels', labels.join(','));
     notaHtml.addEventListener('click', (e) => {
         overlay.style.display = 'block';
         if (Array.from(e.target.classList).indexOf('notes') === -1) {

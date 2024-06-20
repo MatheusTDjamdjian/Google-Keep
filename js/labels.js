@@ -10,25 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
             notes.forEach(note => {
                 note.labels.forEach(label => labelsSet.add(label));
-                createNoteElement(note);
+                renderizarNota(note.id, note.title, note.text, note.controls, note.labels);
             });
 
             labelsSet.forEach(label => createLabelElement(label));
             addLabelFilterEvent();
         })
         .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
-
-    function createNoteElement(note) {
-        const noteElement = document.createElement('div');
-        noteElement.className = 'note';
-        noteElement.innerHTML = `
-            <h2>${note.title}</h2>
-            <p>${note.text}</p>
-            <div>${note.labels.map(label => `<span class="label">${label}</span>`).join(' ')}</div>
-            <div>${note.controls.map(control => `<button>${control}</button>`).join(' ')}</div>
-        `;
-        notesContainer.appendChild(noteElement);
-    }
 
     function createLabelElement(label) {
         const labelElement = document.createElement('li');
@@ -54,9 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function filterNotesByLabel(label) {
-        const notes = document.querySelectorAll('.note');
+        const notes = document.querySelectorAll('.notes');
         notes.forEach(note => {
-            const noteLabels = Array.from(note.querySelectorAll('.label')).map(el => el.textContent);
+            const noteLabels = note.getAttribute('data-labels').split(',');
             if (label === 'all' || noteLabels.includes(label)) {
                 note.style.display = '';
             } else {
