@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dynamicLabelsContainer.appendChild(labelElement);
     }
 
+    //Filtrar as labels
     function addLabelFilterEvent() {
         const labelButtons = document.querySelectorAll('.menu-button[data-label]');
         labelButtons.forEach(button => {

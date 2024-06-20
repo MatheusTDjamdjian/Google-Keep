@@ -126,8 +126,6 @@ const addEventListenersToNotes = () => {
                 }, 500);
             }
         });
-
-        // Adicionar eventos aos controles ao carregar a página
         addEventListenersToControls(note);
     });
 

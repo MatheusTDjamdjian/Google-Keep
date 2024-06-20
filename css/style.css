@@ -4,7 +4,6 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
 :root {
     --fonte-principal: 'Roboto', sans-serif;
     --bg-img-logo: transparent;
@@ -23,7 +22,6 @@
     --bg-menu-item: #feefc3;
     --bg-menu-item-hover: #f1f3f4;
 }
-
 body.dark {
     --bg-img-logo: transparent;
     --symbol-search-color: #e8eaed;
@@ -38,11 +36,9 @@ body.dark {
     --bg-menu-item: #41331c;
     --bg-menu-item-hover: #28292c;
 }
-
 button {
     border: none;
 }
-
 html,
 body,
 .grades {
@@ -51,17 +47,14 @@ body,
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: var(--bg-color);
 }
-
 .container-body {
     display: flex;
     position: absolute;
     width: 100%;
 }
-
 header {
     display: flex;
     align-items: center;
@@ -74,7 +67,6 @@ header {
     padding: 5px;
     z-index: 2;
 }
-
 .header-left {
     display: flex;
     justify-content: space-between;
@@ -88,14 +80,12 @@ header {
     position: relative;
     margin-left: 5px;
 }
-
 .div-input-symbols {
     display: flex;
     justify-content: flex-end;
     width: 15%;
     margin-right: 15px;
 }
-
 #button-menu {
     color: var(--text);
     display: flex;
@@ -111,7 +101,6 @@ header {
     border-radius: 50%;
     transition: .2s ease-in-out all;
 }
-
 #button-menu:hover {
     background-color: #4242424f;    
 }
@@ -122,13 +111,11 @@ div#logo {
     display: flex;
     align-items: center;
 }
-
 #logo img {
     background-color: var(--bg-img-logo);
     width: 40px;
     height: 40px;
 }
-
 span#text-logo {
     font-size: 20px;
     font-family: var(--fonte-principal);
@@ -149,18 +136,15 @@ span#text-logo {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-
 #search-input::placeholder {
     color: var(--text);
 }
-
 #search-bar:active:focus,
 #search-bar:focus,
 #search-bar:active,
 #search-bar:hover {
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
 }
-
 #search-bar:active:focus #search-input,
 #search-bar:focus #search-input,
 #search-bar:active #search-input,
@@ -172,16 +156,13 @@ span#text-logo {
     transition: .3s ease-in-out all;
     background-color: var(--bg-color);
 }
-
 .control-bar {
     display: flex;
 }
-
 #search-bar {
     display: none;
     border-radius: 5px;
 }
-
 @media (min-width: 768px) {
     #search-bar {
         display: flex;
@@ -191,7 +172,6 @@ span#text-logo {
         padding-top: 2px;
     }
 }
-
 button.search-bar-btn {
     background-color: transparent;
     border: none;
@@ -201,12 +181,10 @@ button.search-bar-btn {
     margin-left: 0px;
     padding-left: 0px;
 }
-
 button.search-bar-btn:hover {
     background-color: white;
     box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.247);
 }
-
 #search-symbol {
     display: flex;
     cursor: pointer;
@@ -221,11 +199,9 @@ button.search-bar-btn:hover {
     border-bottom-right-radius: 0;
     margin: 0;
 }
-
 #search-symbol:hover {
     background-color: white;
 }
-
 #dark-symbol {
     display: flex;
     cursor: pointer;
@@ -243,7 +219,6 @@ button.search-bar-btn:hover {
     size: 0.5px;
     margin: 0px;
 }
-
 .content {
     display: flex;
     justify-content: center;
@@ -252,7 +227,6 @@ button.search-bar-btn:hover {
     width: 100vw;
     padding: 80px 10px 0px 80px;
 }
-
 .menu-config {
     display: flex;
     flex-direction: column;
@@ -263,15 +237,12 @@ button.search-bar-btn:hover {
     width: 100%;
     max-width: 70px;
 } 
-
 .menu-config.closed {
     max-width: 70px;
 } 
-
 .menu-config.closed .menu-list-p {
     display: none;
 }
-
 #menu-list {
     display: flex;
     flex-direction: column;
@@ -283,7 +254,6 @@ button.search-bar-btn:hover {
     padding: 0px;
     align-items: flex-start;
 }
-
 .material-symbols-outlined {
     color: var(--text);
     display: none;
@@ -298,7 +268,6 @@ button.search-bar-btn:hover {
     width: 100%;
     display: flex;
 }
-
 .menu-items .menu-button {
     display: flex;
     align-items: center;
@@ -308,25 +277,21 @@ button.search-bar-btn:hover {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-
 .menu-items .menu-button:hover,
 .menu-items .menu-button:focus,
 .menu-items .menu-button:active,
 .menu-items .menu-button:active:focus {
     background-color: var(--bg-menu-item-hover);
 }
-
 .menu-items .menu-button.active {
     background-color: var(--bg-menu-item);
 }
-
 .menu-list-p {
     display: none;
     font-weight: bolder;
     font-size: 15px;
     color: var(--text);
 }
-
 .link-menu {
     text-decoration: none;
     display: flex;
@@ -342,19 +307,15 @@ button.search-bar-btn:hover {
     margin: -4px 0px 0px 10px;
     height: 0;
 }
-
 .controls-on {
     height: 47px;
 }
-
 .controls-off {
     height: 0;
 }
-
 .expandida .notes-controls {
     height: auto;
 }
-
 .container-notes {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -363,7 +324,6 @@ button.search-bar-btn:hover {
     margin: 15px 0;
     width: 85%;
 }
-
 .notes {
     color: var(--text);
     break-inside: avoid;
@@ -374,19 +334,15 @@ button.search-bar-btn:hover {
     margin: 0;
     border-radius: 5px;
 }
-
 .notes-expanded {
     height: auto;
 }
-
 .notes-content {
     padding: 9px;
 }
-
 .notes:hover {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
 }
-
 .btn-notes-fechar {
     text-decoration: none;
     color: var(--text);
@@ -403,7 +359,6 @@ button.search-bar-btn:hover {
     margin-right: auto;
     padding-bottom: 5px;
 }
-
 .notes-text {
     color: var(--text);
     font-size: 13px;
@@ -414,19 +369,15 @@ button.search-bar-btn:hover {
 .notes-color-one {
     background-color: var(--cor0);
 }
-
 .notes-color-two {
     background-color: var(--cor1);
 }
-
 .notes-color-three {
     background-color: var(--cor2);
 }
-
 .notes-color-four {
     background-color: var(--cor3);
 }
-
 @media (min-width: 768px) {
     .content {
         padding-left: 160px;
@@ -453,7 +404,6 @@ button.search-bar-btn:hover {
     width: 100%;
     height: 100%;
 }
-
 .expandida {
     position: fixed;
     overflow-y: auto;
@@ -468,12 +418,10 @@ button.search-bar-btn:hover {
     max-height: 60%;
     z-index: 1000;
 }
-
 .expandida h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-
 .expandida p {
     font-size: 18px;
     line-height: 1.6;

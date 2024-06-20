@@ -1,5 +1,4 @@
 // Dark mode
-
 function resizeNoteHeight(item){
     grid = document.getElementsByClassName("container-notes")[0];
     rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
