@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Arquivo
+// Arquivo e Lixeira
 document.querySelector('.menu-config').addEventListener('click', (event) => {
     const menuButton = event.target.closest('.menu-button');
     if (!menuButton) return;
@@ -107,12 +107,15 @@ function filterNotesByLabel(label) {
     notes.forEach(note => {
         const noteLabels = note.getAttribute('data-labels').split(',');
         const archived = note.getAttribute('data-archived') === 'true';
+        const trashed = note.getAttribute('data-trashed') === 'true';
         
-        if (label === 'all' && !archived) {
+        if (label === 'all' && !archived && !trashed) {
             note.style.display = '';
         } else if (label === 'archive' && archived) {
             note.style.display = '';
-        } else if (!archived && noteLabels.includes(label)) {
+        } else if (label === 'trash' && trashed) {
+            note.style.display = '';
+        } else if (!archived && !trashed && noteLabels.includes(label)) {
             note.style.display = '';
         } else {
             note.style.display = 'none';

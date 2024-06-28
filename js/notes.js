@@ -5,7 +5,7 @@ fetch('json/dados.json')
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
-            renderizarNota(note.id, note.title, note.text, note.controls, note.labels, note.archived);
+            renderizarNota(note.id, note.title, note.text, note.controls, note.labels, note.archived, note.trashed);
         });
         resizeAllNotesHeight();
         
@@ -23,13 +23,14 @@ const colorClasses = {
     4: 'notes-color-four',
 }
 
-// Renderizar a ntao
-const renderizarNota = (id, title, text, controls, labels = [], archived = false) => {
+// Função renderizar as notas 
+const renderizarNota = (id, title, text, controls, labels = [], archived = false, trashed = false) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
     notaHtml.classList.add(colorClasses[getRandomNumber()]);
     notaHtml.setAttribute('data-labels', labels.join(','));
     notaHtml.setAttribute('data-archived', archived);
+    notaHtml.setAttribute('data-trashed', trashed);
     notaHtml.addEventListener('click', (e) => {
         overlay.style.display = 'block';
         if (Array.from(e.target.classList).indexOf('notes') === -1) {
@@ -75,6 +76,15 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     });
     controlsContainer.appendChild(archiveButton);
 
+    const trashButton = document.createElement('button');
+    trashButton.textContent = 'Lixeira';
+    trashButton.classList.add('btn-notes-trash');
+    trashButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        trashNote(id);
+    });
+    controlsContainer.appendChild(trashButton);
+
     notaHtml.appendChild(notesContent);
     notesContent.appendChild(idInput);
     notesContent.appendChild(titleElement);
@@ -88,6 +98,13 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
 const archiveNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
     note.setAttribute('data-archived', true);
+    note.style.display = 'none';
+}
+
+// Lixeira
+const trashNote = (id) => {
+    const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
+    note.setAttribute('data-trashed', true);
     note.style.display = 'none';
 }
 
