@@ -450,7 +450,7 @@ button.search-bar-btn:hover {
 /* Labels */
 
 .notes-labels {
-    margin: 10px 10px 25px 0px;
+    margin: 10px 10px 25px 10px;
 }
 .note-label {
     border: solid rgba(0, 0, 0, 0.2) 0.5px;
@@ -460,5 +460,6 @@ button.search-bar-btn:hover {
     padding: 5px 10px;
     border-radius: 15px;
     margin-right: 5px;
+    margin-top: 5px;
     font-size: 0.85em;
 }
