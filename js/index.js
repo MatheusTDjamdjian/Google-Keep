@@ -35,7 +35,7 @@ document.querySelector('#button-menu').addEventListener('click', (event) => {
     }
 });
 
-//Labels
+//Labels // Mudança
 document.addEventListener('DOMContentLoaded', function() {
     const notesContainer = document.getElementById('notes-container');
     const dynamicLabelsContainer = document.getElementById('dynamic-labels');
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dynamicLabelsContainer.appendChild(labelElement);
     }
 
-    //Filtrar as labels
+    //Filtrar as labels // Mudança
     function addLabelFilterEvent() {
         const labelButtons = document.querySelectorAll('.menu-button[data-label]');
         labelButtons.forEach(button => {
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Arquivo e Lixeira
+// Arquivo e Lixeira // Mudança
 document.querySelector('.menu-config').addEventListener('click', (event) => {
     const menuButton = event.target.closest('.menu-button');
     if (!menuButton) return;

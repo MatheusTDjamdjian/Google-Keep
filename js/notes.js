@@ -1,7 +1,7 @@
 // Buscar dados no JSON 
 var overlay = document.querySelector('.overlay');
 
-fetch('json/dados.json')
+fetch('json/dados.json') // Mudança
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
@@ -23,7 +23,7 @@ const colorClasses = {
     4: 'notes-color-four',
 }
 
-// Função renderizar as notas 
+// Função renderizar as notas // Mudança
 const renderizarNota = (id, title, text, controls, labels = [], archived = false, trashed = false) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
@@ -94,14 +94,14 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
 
-// Arquivar a nota
+// Arquivar a nota // Mudança
 const archiveNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
     note.setAttribute('data-archived', true);
     note.style.display = 'none';
 }
 
-// Lixeira
+// Lixeira // Mudança
 const trashNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
     note.setAttribute('data-trashed', true);
