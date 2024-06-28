@@ -1,7 +1,7 @@
 // Buscar dados no JSON 
 var overlay = document.querySelector('.overlay');
 
-fetch('json/dados.json') // Mudança
+fetch('json/dados.json')
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
@@ -23,7 +23,7 @@ const colorClasses = {
     4: 'notes-color-four',
 }
 
-// Função renderizar as notas // Mudança
+// Função renderizar as notas
 const renderizarNota = (id, title, text, controls, labels = [], archived = false, trashed = false) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
@@ -68,7 +68,7 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     });
 
     const archiveButton = document.createElement('button');
-    archiveButton.textContent = 'Arquivar';
+    archiveButton.textContent = archived ? 'Unarchive' : 'Arquivar';
     archiveButton.classList.add('btn-notes-archive');
     archiveButton.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -77,7 +77,7 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     controlsContainer.appendChild(archiveButton);
 
     const trashButton = document.createElement('button');
-    trashButton.textContent = 'Lixeira';
+    trashButton.textContent = trashed ? 'Restore' : 'Lixeira';
     trashButton.classList.add('btn-notes-trash');
     trashButton.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -94,18 +94,39 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
 
-// Arquivar a nota // Mudança
+// Arquivar a nota
 const archiveNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
-    note.setAttribute('data-archived', true);
-    note.style.display = 'none';
+    const isArchived = note.getAttribute('data-archived') === 'true';
+    note.setAttribute('data-archived', !isArchived);
+    updateNoteStatus(id, { archived: !isArchived });
 }
 
-// Lixeira // Mudança
+// Lixeira
 const trashNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
-    note.setAttribute('data-trashed', true);
+    const isTrashed = note.getAttribute('data-trashed') === 'true';
+    note.setAttribute('data-trashed', !isTrashed);
     note.style.display = 'none';
+    updateNoteStatus(id, { trashed: !isTrashed });
+}
+
+// Função para mudar os status da nota
+const updateNoteStatus = (id, status) => {
+    fetch('json/dados.json')
+        .then(response => response.json())
+        .then(data => {
+            const note = data.notes.find(note => note.id === id);
+            Object.assign(note, status);
+            return fetch('json/dados.json', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+        })
+        .catch(error => console.error('Erro no update dos status da nota!', error));
 }
 
 // Função para adicionar eventos aos botões de controle

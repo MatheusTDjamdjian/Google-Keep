@@ -35,7 +35,7 @@ document.querySelector('#button-menu').addEventListener('click', (event) => {
     }
 });
 
-//Labels // Mudança
+//Labels
 document.addEventListener('DOMContentLoaded', function() {
     const notesContainer = document.getElementById('notes-container');
     const dynamicLabelsContainer = document.getElementById('dynamic-labels');
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dynamicLabelsContainer.appendChild(labelElement);
     }
 
-    //Filtrar as labels // Mudança
+    //Filtrar as labels
     function addLabelFilterEvent() {
         const labelButtons = document.querySelectorAll('.menu-button[data-label]');
         labelButtons.forEach(button => {
@@ -78,6 +78,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 filterNotesByLabel(label);
             });
         });
+        setTimeout(() => {
+            resizeAllNotesHeight();
+        }, 500);
     }
 
     function filterNotesByLabel(label) {
@@ -93,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Arquivo e Lixeira // Mudança
+// Arquivo e Lixeira
 document.querySelector('.menu-config').addEventListener('click', (event) => {
     const menuButton = event.target.closest('.menu-button');
     if (!menuButton) return;
