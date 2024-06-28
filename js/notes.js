@@ -5,7 +5,7 @@ fetch('json/dados.json')
     .then(response => response.json())
     .then(data => {
         data.notes.forEach(note => {
-            renderizarNota(note.id, note.title, note.text, note.controls, note.labels);
+            renderizarNota(note.id, note.title, note.text, note.controls, note.labels, note.archived);
         });
         resizeAllNotesHeight();
         
@@ -23,12 +23,13 @@ const colorClasses = {
     4: 'notes-color-four',
 }
 
-// Função para carregar e renderizar o arquivo HTML
-const renderizarNota = (id, title, text, controls, labels = []) => {
+// Renderizar a ntao
+const renderizarNota = (id, title, text, controls, labels = [], archived = false) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
     notaHtml.classList.add(colorClasses[getRandomNumber()]);
     notaHtml.setAttribute('data-labels', labels.join(','));
+    notaHtml.setAttribute('data-archived', archived);
     notaHtml.addEventListener('click', (e) => {
         overlay.style.display = 'block';
         if (Array.from(e.target.classList).indexOf('notes') === -1) {
@@ -57,13 +58,22 @@ const renderizarNota = (id, title, text, controls, labels = []) => {
 
     const controlsContainer = document.createElement('div');
     controlsContainer.classList.add('notes-controls');
-    
+
     controls.forEach(control => {
         const controlButton = document.createElement('button');
         controlButton.textContent = control;
         controlButton.classList.add('btn-notes-fechar');
         controlsContainer.appendChild(controlButton);
     });
+
+    const archiveButton = document.createElement('button');
+    archiveButton.textContent = 'Archive';
+    archiveButton.classList.add('btn-notes-archive');
+    archiveButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        archiveNote(id);
+    });
+    controlsContainer.appendChild(archiveButton);
 
     notaHtml.appendChild(notesContent);
     notesContent.appendChild(idInput);
@@ -72,6 +82,13 @@ const renderizarNota = (id, title, text, controls, labels = []) => {
     notesContent.appendChild(controlsContainer);
 
     document.querySelector('.container-notes').appendChild(notaHtml);
+}
+
+// Arquivar a nota
+const archiveNote = (id) => {
+    const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
+    note.setAttribute('data-archived', true);
+    note.style.display = 'none';
 }
 
 // Função para adicionar eventos aos botões de controle

@@ -92,3 +92,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+// Arquivo
+document.querySelector('.menu-config').addEventListener('click', (event) => {
+    const menuButton = event.target.closest('.menu-button');
+    if (!menuButton) return;
+
+    const label = menuButton.getAttribute('data-label');
+    filterNotesByLabel(label);
+});
+
+function filterNotesByLabel(label) {
+    const notes = document.querySelectorAll('.notes');
+    notes.forEach(note => {
+        const noteLabels = note.getAttribute('data-labels').split(',');
+        const archived = note.getAttribute('data-archived') === 'true';
+        
+        if (label === 'all' && !archived) {
+            note.style.display = '';
+        } else if (label === 'archive' && archived) {
+            note.style.display = '';
+        } else if (!archived && noteLabels.includes(label)) {
+            note.style.display = '';
+        } else {
+            note.style.display = 'none';
+        }
+    });
+}
