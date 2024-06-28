@@ -22,7 +22,6 @@ document.querySelector('.container-symbols-header').addEventListener('click', fu
         document.body.classList.add('dark');
     }
 });
-
 window.addEventListener("resize", resizeAllNotesHeight);
 resizeAllNotesHeight();
 

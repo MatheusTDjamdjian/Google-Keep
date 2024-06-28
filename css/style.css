@@ -452,13 +452,12 @@ button.search-bar-btn:hover {
 .notes-labels {
     margin: 10px 10px 25px 0px;
 }
-
 .note-label {
+    border: solid rgba(0, 0, 0, 0.2) 0.5px;
     display: inline-block;
     background-color: transparent;
     color: #333;
     padding: 5px 10px;
-    border: solid rgba(0, 0, 0, 0.2) 0.5px;
     border-radius: 15px;
     margin-right: 5px;
     font-size: 0.85em;
