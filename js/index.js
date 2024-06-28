@@ -108,20 +108,68 @@ document.querySelector('.menu-config').addEventListener('click', (event) => {
     }, 500);
 });
 
+// Barra de pesquisa 
+let currentFilterLabel = 'all';
+let currentSearchText = '';
+
+document.querySelector('.menu-config').addEventListener('click', (event) => {
+    const menuButton = event.target.closest('.menu-button');
+    if (!menuButton) return;
+
+    currentFilterLabel = menuButton.getAttribute('data-label');
+    filterNotesByLabel(currentFilterLabel);
+});
+
+document.getElementById('search-input').addEventListener('input', (event) => {
+    currentSearchText = event.target.value.toLowerCase();
+    filterNotesByLabel(currentFilterLabel);
+});
+
+function reapplyCurrentFilter() {
+    filterNotesByLabel(currentFilterLabel);
+}
+
+// Filtrar notas pela label
 function filterNotesByLabel(label) {
     const notes = document.querySelectorAll('.notes');
     notes.forEach(note => {
         const noteLabels = note.getAttribute('data-labels').split(',');
         const archived = note.getAttribute('data-archived') === 'true';
         const trashed = note.getAttribute('data-trashed') === 'true';
+        const title = note.querySelector('.notes-title').textContent.toLowerCase();
+        const text = note.querySelector('.notes-text').textContent.toLowerCase();
+        const labels = note.getAttribute('data-labels').toLowerCase();
         
-        if (label === 'all' && !archived && !trashed) {
+        const matchesSearch = title.includes(currentSearchText) || text.includes(currentSearchText) || labels.includes(currentSearchText);
+
+        if (label === 'all' && !archived && !trashed && matchesSearch) {
             note.style.display = '';
-        } else if (label === 'archive' && archived) {
+        } else if (label === 'archive' && archived && matchesSearch) {
             note.style.display = '';
-        } else if (label === 'trash' && trashed) {
+        } else if (label === 'trash' && trashed && matchesSearch) {
             note.style.display = '';
-        } else if (!archived && !trashed && noteLabels.includes(label)) {
+        } else if (!archived && !trashed && noteLabels.includes(label) && matchesSearch) {
+            note.style.display = '';
+        } else {
+            note.style.display = 'none';
+        }
+    });
+}
+
+// Barra de pesquisa 
+document.getElementById('search-input').addEventListener('input', (event) => {
+    const searchText = event.target.value.toLowerCase();
+    filterNotesBySearch(searchText);
+});
+
+function filterNotesBySearch(searchText) {
+    const notes = document.querySelectorAll('.notes');
+    notes.forEach(note => {
+        const title = note.querySelector('.notes-title').textContent.toLowerCase();
+        const text = note.querySelector('.notes-text').textContent.toLowerCase();
+        const labels = note.getAttribute('data-labels').toLowerCase();
+        
+        if (title.includes(searchText) || text.includes(searchText) || labels.includes(searchText)) {
             note.style.display = '';
         } else {
             note.style.display = 'none';
