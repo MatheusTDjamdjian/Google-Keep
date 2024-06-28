@@ -14,7 +14,8 @@
     --cor2: #ad95f1;
     --cor3: #e99898;
     --text: #424242;
-    --back-input: #42424215;
+    --botao-notes: rgba(0, 0, 0, 0.796);
+    --back-input: #00000015;
     --notes-border:#4242422d;
     --input-color-bg: #f1f3f4;
     --bg-color: #fff;
@@ -343,14 +344,6 @@ button.search-bar-btn:hover {
 .notes:hover {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
 }
-.btn-notes-fechar {
-    text-decoration: none;
-    color: var(--text);
-    background-color: transparent;
-    font-size: 16px;
-    border: solid rgba(0, 0, 0, 0.2) 0.5px;
-    margin: 1px;
-}
 
 /* Conteúdo notas */
 
@@ -427,22 +420,27 @@ button.search-bar-btn:hover {
     line-height: 1.6;
 }
 
-/* Arquivo */
+/* Botões notas */
 
 .btn-notes-archive {
     text-decoration: none;
-    color: var(--text);
+    color: var(--botao-notes);
     background-color: transparent;
     font-size: 16px;
     border: solid rgba(0, 0, 0, 0.2) 0.5px;
     margin: 1px;
 }
-
-/* Lixeira */
-
 .btn-notes-trash {
     text-decoration: none;
-    color: var(--text);
+    color: var(--botao-notes);
+    background-color: transparent;
+    font-size: 16px;
+    border: solid rgba(0, 0, 0, 0.2) 0.5px;
+    margin: 1px;
+}
+.btn-notes-fechar {
+    text-decoration: none;
+    color: var(--botao-notes);
     background-color: transparent;
     font-size: 16px;
     border: solid rgba(0, 0, 0, 0.2) 0.5px;
