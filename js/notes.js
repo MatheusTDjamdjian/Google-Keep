@@ -67,7 +67,7 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     });
 
     const archiveButton = document.createElement('button');
-    archiveButton.textContent = 'Archive';
+    archiveButton.textContent = 'Arquivar';
     archiveButton.classList.add('btn-notes-archive');
     archiveButton.addEventListener('click', (e) => {
         e.stopPropagation();
