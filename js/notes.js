@@ -85,11 +85,21 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     });
     controlsContainer.appendChild(trashButton);
 
-    notaHtml.appendChild(notesContent);
+    const labelsContainer = document.createElement('div');
+    labelsContainer.classList.add('notes-labels');
+    labels.forEach(label => {
+        const labelElement = document.createElement('span');
+        labelElement.classList.add('note-label');
+        labelElement.textContent = label;
+        labelsContainer.appendChild(labelElement);
+    });
+
     notesContent.appendChild(idInput);
     notesContent.appendChild(titleElement);
     notesContent.appendChild(textElement);
+    notesContent.appendChild(labelsContainer);
     notesContent.appendChild(controlsContainer);
+    notaHtml.appendChild(notesContent);
 
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
