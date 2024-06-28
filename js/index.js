@@ -100,6 +100,9 @@ document.querySelector('.menu-config').addEventListener('click', (event) => {
 
     const label = menuButton.getAttribute('data-label');
     filterNotesByLabel(label);
+    setTimeout(() => {
+        resizeAllNotesHeight();
+    }, 500);
 });
 
 function filterNotesByLabel(label) {
