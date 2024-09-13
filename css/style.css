@@ -74,7 +74,7 @@ header {
     width: 85%;
 }
 
-/* Button e Symbols */
+/* Button and Symbols */
 
 .container-symbols-header {
     display: flex;
@@ -212,7 +212,7 @@ button.search-bar-btn:hover {
     font-size: 30px;
 }
 
-/* Conteúdo */
+/* Content */
 
 .hr-header {
     color: var(--text);
@@ -300,7 +300,7 @@ button.search-bar-btn:hover {
     text-align: center;
 }
 
-/* Notas */
+/* Notes */
 
 .notes-controls {
     overflow: hidden;
@@ -345,7 +345,7 @@ button.search-bar-btn:hover {
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Conteúdo notas */
+/* Content notes */
 
 .notes-title {
     margin-left: auto;
@@ -357,7 +357,7 @@ button.search-bar-btn:hover {
     font-size: 13px;
 }
 
-/* Cores notas */
+/* Colors notes */
 
 .notes-color-one {
     background-color: var(--cor0);
@@ -385,7 +385,7 @@ button.search-bar-btn:hover {
     }
 }
 
-/* Expansivo notas */
+/* Expansive notes */
 
 .overlay {
     display: none;
@@ -420,7 +420,7 @@ button.search-bar-btn:hover {
     line-height: 1.6;
 }
 
-/* Botões notas */
+/* Notes buttons */
 
 .btn-notes-archive {
     text-decoration: none;

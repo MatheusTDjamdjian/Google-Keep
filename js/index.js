@@ -34,7 +34,7 @@ document.querySelector('#button-menu').addEventListener('click', (event) => {
     }
 });
 
-//Labels
+// Labels
 document.addEventListener('DOMContentLoaded', function() {
     const notesContainer = document.getElementById('notes-container');
     const dynamicLabelsContainer = document.getElementById('dynamic-labels');
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dynamicLabelsContainer.appendChild(labelElement);
     }
 
-    //Filtrar as labels
+    // Filter the labels
     function addLabelFilterEvent() {
         const labelButtons = document.querySelectorAll('.menu-button[data-label]');
         labelButtons.forEach(button => {
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Arquivo e Lixeira
+// File and Recycle Bin
 document.querySelector('.menu-config').addEventListener('click', (event) => {
     const menuButton = event.target.closest('.menu-button');
     if (!menuButton) return;
@@ -107,7 +107,7 @@ document.querySelector('.menu-config').addEventListener('click', (event) => {
     }, 500);
 });
 
-// Barra de pesquisa 
+// Search bar 
 let currentFilterLabel = 'all';
 let currentSearchText = '';
 
@@ -128,7 +128,7 @@ function reapplyCurrentFilter() {
     filterNotesByLabel(currentFilterLabel);
 }
 
-// Filtrar notas pela label
+// Filter notes by label
 function filterNotesByLabel(label) {
     const notes = document.querySelectorAll('.notes');
     notes.forEach(note => {
@@ -155,7 +155,7 @@ function filterNotesByLabel(label) {
     });
 }
 
-// Barra de pesquisa 
+// Search bar 
 document.getElementById('search-input').addEventListener('input', (event) => {
     const searchText = event.target.value.toLowerCase();
     filterNotesBySearch(searchText);

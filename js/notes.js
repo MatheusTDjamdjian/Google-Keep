@@ -1,4 +1,4 @@
-// Buscar dados no JSON 
+// Fetch data in JSON 
 var overlay = document.querySelector('.overlay');
 
 fetch('json/dados.json')
@@ -23,7 +23,7 @@ const colorClasses = {
     4: 'notes-color-four',
 }
 
-// Função renderizar as notas
+// Function rendering notes
 const renderizarNota = (id, title, text, controls, labels = [], archived = false, trashed = false) => {
     const notaHtml = document.createElement('div');
     notaHtml.classList.add('notes');
@@ -104,7 +104,7 @@ const renderizarNota = (id, title, text, controls, labels = [], archived = false
     document.querySelector('.container-notes').appendChild(notaHtml);
 }
 
-// Arquivar a nota
+// Archive the note
 const archiveNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
     const isArchived = note.getAttribute('data-archived') === 'true';
@@ -112,7 +112,7 @@ const archiveNote = (id) => {
     updateNoteStatus(id, { archived: !isArchived });
 }
 
-// Lixeira
+// Bin
 const trashNote = (id) => {
     const note = document.querySelector(`.notes .id-nota[value="${id}"]`).closest('.notes');
     const isTrashed = note.getAttribute('data-trashed') === 'true';
@@ -121,7 +121,7 @@ const trashNote = (id) => {
     updateNoteStatus(id, { trashed: !isTrashed });
 }
 
-// Função para mudar os status da nota
+// Function to change note statuses
 const updateNoteStatus = (id, status) => {
     fetch('json/dados.json')
         .then(response => response.json())
@@ -139,7 +139,7 @@ const updateNoteStatus = (id, status) => {
         .catch(error => console.error('Erro no update dos status da nota!', error));
 }
 
-// Função para adicionar eventos aos botões de controle
+// Function to add events to control buttons
 const addEventListenersToControls = (note) => {
     const closeButton = note.querySelectorAll(".btn-notes-fechar");
 
@@ -165,7 +165,7 @@ const addEventListenersToControls = (note) => {
     });
 }
 
-// Função para adicionar evento às notas
+// Function to add event to notes
 const addEventListenersToNotes = () => {
     var notes = document.querySelectorAll(".notes");
 
